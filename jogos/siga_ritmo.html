@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Siga o ritmo</title>
+  <link rel="stylesheet" href="estilo.css">
+  <style>
+    .teclas {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      max-width: 320px;
+      margin: 16px auto;
+    }
+    .tecla {
+      height: 130px;
+      border-radius: 20px;
+      border: none;
+      box-shadow: 0 6px 0 rgba(0, 0, 0, 0.2);
+      min-width: 0;
+      padding: 0;
+      opacity: 0.85;
+    }
+    .tecla.piscando { opacity: 1; transform: scale(1.04); }
+    .tecla:disabled { opacity: 0.85; }
+  </style>
+</head>
+<body>
+  <a class="voltar" href="index.html">← Voltar</a>
+  <h1>Siga o ritmo</h1>
+  <p class="mensagem" id="mensagem">Ouça a sequência de cores e repita na mesma ordem.</p>
+  <p class="placar" id="placar">Nível 1</p>
+
+  <div class="teclas">
+    <button class="tecla" data-nota="0" style="background: #e74c3c" disabled>🔴</button>
+    <button class="tecla" data-nota="1" style="background: #f1c40f" disabled>🟡</button>
+    <button class="tecla" data-nota="2" style="background: #2ecc71" disabled>🟢</button>
+    <button class="tecla" data-nota="3" style="background: #3498db" disabled>🔵</button>
+  </div>
+
+  <button class="iniciar" id="comecar">Começar</button>
+
+  <script>
+    // Quatro notas de um acorde de Dó maior (C, E, G, C agudo).
+    const NOTAS = [261.63, 329.63, 392.0, 523.25];
+
+    let audio = null;
+    let sequencia = [];
+    let posicao = 0;
+    let podeTocar = false;
+    let nivel = 0;
+
+    function contexto() {
+      if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+      return audio;
+    }
+
+    function somDaNota(indice, duracao = 0.45) {
+      const ctx = contexto();
+      const agora = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const ganho = ctx.createGain();
+      osc.type = "triangle";
+      osc.frequency.setValueAtTime(NOTAS[indice], agora);
+      ganho.gain.setValueAtTime(0.3, agora);
+      ganho.gain.exponentialRampToValueAtTime(0.001, agora + duracao);
+      osc.connect(ganho);
+      ganho.connect(ctx.destination);
+      osc.start(agora);
+      osc.stop(agora + duracao);
+    }
+
+    const teclas = Array.from(document.querySelectorAll(".tecla"));
+    const mensagem = document.getElementById("mensagem");
+    const placar = document.getElementById("placar");
+    const comecar = document.getElementById("comecar");
+
+    function piscar(indice) {
+      const tecla = teclas[indice];
+      tecla.classList.add("piscando");
+      somDaNota(indice);
+      setTimeout(() => tecla.classList.remove("piscando"), 350);
+    }
+
+    function ativarTeclas(ativo) {
+      teclas.forEach((t) => (t.disabled = !ativo));
+    }
+
+    // Toca a sequência inteira antes de liberar as teclas para o aluno.
+    function tocarSequencia() {
+      podeTocar = false;
+      ativarTeclas(false);
+      mensagem.textContent = "Preste atenção...";
+      sequencia.forEach((nota, i) => {
+        setTimeout(() => piscar(nota), 600 * (i + 1));
+      });
+      setTimeout(() => {
+        posicao = 0;
+        podeTocar = true;
+        ativarTeclas(true);
+        mensagem.textContent = "Agora é a sua vez!";
+      }, 600 * (sequencia.length + 1));
+    }
+
+    function novoNivel() {
+      nivel++;
+      sequencia.push(Math.floor(Math.random() * 4));
+      placar.textContent = "Nível " + nivel + " · Sequência de " + sequencia.length + " cores";
+      tocarSequencia();
+    }
+
+    teclas.forEach((tecla, indice) => {
+      tecla.addEventListener("click", () => {
+        if (!podeTocar) return;
+        piscar(indice);
+
+        if (indice !== sequencia[posicao]) {
+          // Erro: repete o mesmo nível sem punir, para a criança tentar de novo.
+          podeTocar = false;
+          ativarTeclas(false);
+          mensagem.textContent = "Quase! Vamos ouvir de novo.";
+          setTimeout(tocarSequencia, 1000);
+          return;
+        }
+
+        posicao++;
+        if (posicao === sequencia.length) {
+          podeTocar = false;
+          ativarTeclas(false);
+          mensagem.textContent = "Muito bem! 🎉";
+          setTimeout(novoNivel, 1000);
+        }
+      });
+    });
+
+    comecar.addEventListener("click", () => {
+      comecar.style.display = "none";
+      sequencia = [];
+      nivel = 0;
+      novoNivel();
+    });
+  </script>
+</body>
+</html>

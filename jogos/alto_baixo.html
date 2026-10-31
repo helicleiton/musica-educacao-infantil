@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agudo ou grave?</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="voltar" href="index.html">← Voltar</a>
+  <h1>Agudo ou grave?</h1>
+  <p class="mensagem" id="mensagem">Ouça o som e escolha: agudo (fininho) ou grave (grossinho)?</p>
+  <p class="placar" id="placar">Rodada 0 / 10 · Acertos: 0</p>
+
+  <div class="botoes">
+    <button id="ouvir">🔊 Ouvir de novo</button>
+  </div>
+  <div class="botoes">
+    <button id="agudo" style="background: var(--azul)" disabled>🐭 Agudo</button>
+    <button id="grave" style="background: var(--roxo)" disabled>🐘 Grave</button>
+  </div>
+  <button class="iniciar" id="comecar">Começar</button>
+
+  <script>
+    const TOTAL = 10;
+    const FREQ_AGUDO = 1046; // Dó agudo
+    const FREQ_GRAVE = 131;  // Dó grave
+
+    let audio = null;
+    let rodada = 0;
+    let acertos = 0;
+    let atual = null; // "agudo" ou "grave"
+    let aguardando = false;
+
+    function contexto() {
+      if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+      return audio;
+    }
+
+    function tocarTom(freq) {
+      const ctx = contexto();
+      const agora = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const ganho = ctx.createGain();
+      osc.type = "sine";
+      osc.frequency.setValueAtTime(freq, agora);
+      ganho.gain.setValueAtTime(0.3, agora);
+      ganho.gain.exponentialRampToValueAtTime(0.001, agora + 1.2);
+      osc.connect(ganho);
+      ganho.connect(ctx.destination);
+      osc.start(agora);
+      osc.stop(agora + 1.2);
+    }
+
+    const mensagem = document.getElementById("mensagem");
+    const placar = document.getElementById("placar");
+    const botoes = ["agudo", "grave"].map((id) => document.getElementById(id));
+    const comecar = document.getElementById("comecar");
+    const ouvir = document.getElementById("ouvir");
+
+    function ativarEscolhas(ativo) {
+      botoes.forEach((b) => (b.disabled = !ativo));
+    }
+
+    function tocarAtual() {
+      tocarTom(atual === "agudo" ? FREQ_AGUDO : FREQ_GRAVE);
+    }
+
+    function proximaRodada() {
+      rodada++;
+      atual = Math.random() < 0.5 ? "agudo" : "grave";
+      placar.textContent = "Rodada " + rodada + " / " + TOTAL + " · Acertos: " + acertos;
+      mensagem.textContent = "Ouça o som e escolha!";
+      ativarEscolhas(true);
+      aguardando = true;
+      tocarAtual();
+    }
+
+    function escolher(opcao) {
+      if (!aguardando) return;
+      aguardando = false;
+      ativarEscolhas(false);
+
+      if (opcao === atual) {
+        acertos++;
+        mensagem.textContent = "Muito bem! É " + (atual === "agudo" ? "agudo" : "grave") + "! 🎉";
+      } else {
+        mensagem.textContent = "Era " + (atual === "agudo" ? "agudo" : "grave") + ". Vamos tentar de novo!";
+      }
+      placar.textContent = "Rodada " + rodada + " / " + TOTAL + " · Acertos: " + acertos;
+
+      setTimeout(() => {
+        if (rodada >= TOTAL) {
+          mensagem.textContent = "Fim do jogo! Você acertou " + acertos + " de " + TOTAL + ". 👏";
+          comecar.textContent = "Jogar de novo";
+          comecar.style.display = "block";
+        } else {
+          proximaRodada();
+        }
+      }, 1500);
+    }
+
+    botoes[0].addEventListener("click", () => escolher("agudo"));
+    botoes[1].addEventListener("click", () => escolher("grave"));
+    ouvir.addEventListener("click", () => atual && tocarAtual());
+
+    comecar.addEventListener("click", () => {
+      rodada = 0;
+      acertos = 0;
+      comecar.style.display = "none";
+      proximaRodada();
+    });
+  </script>
+</body>
+</html>

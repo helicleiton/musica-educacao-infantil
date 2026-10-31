@@ -1,0 +1,347 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Planejamento de Música 2027</title>
+  <style>
+    :root {
+      --fundo: #f6f8fb;
+      --cartao: #ffffff;
+      --texto: #1f2933;
+      --secundario: #5b6670;
+      --destaque: #1d4e89;
+      --destaque-claro: #e8eef6;
+      --borda: #d5dde6;
+      --verde: #2e7d4f;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root:not([data-theme="light"]) {
+        --fundo: #161b22;
+        --cartao: #1f2630;
+        --texto: #e6edf3;
+        --secundario: #9aa7b4;
+        --destaque: #7fb2ef;
+        --destaque-claro: #243244;
+        --borda: #33404f;
+        --verde: #6fcf97;
+      }
+    }
+    :root[data-theme="dark"] {
+      --fundo: #161b22;
+      --cartao: #1f2630;
+      --texto: #e6edf3;
+      --secundario: #9aa7b4;
+      --destaque: #7fb2ef;
+      --destaque-claro: #243244;
+      --borda: #33404f;
+      --verde: #6fcf97;
+    }
+
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      background: var(--fundo);
+      color: var(--texto);
+      line-height: 1.45;
+    }
+    main { max-width: 860px; margin: 0 auto; padding: 16px; }
+    h1 { font-size: 1.5rem; margin: 8px 0 4px; color: var(--destaque); }
+    .subtitulo { color: var(--secundario); margin: 0 0 16px; font-size: 0.95rem; }
+
+    .abas { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
+    .aba, .filtro, .botao {
+      font: inherit;
+      font-size: 0.95rem;
+      padding: 8px 14px;
+      border-radius: 999px;
+      border: 1px solid var(--borda);
+      background: var(--cartao);
+      color: var(--texto);
+      cursor: pointer;
+    }
+    .aba[aria-pressed="true"], .filtro[aria-pressed="true"] {
+      background: var(--destaque);
+      border-color: var(--destaque);
+      color: #fff;
+    }
+    .controles { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
+    .busca {
+      flex: 1 1 220px;
+      font: inherit;
+      padding: 9px 12px;
+      border-radius: 10px;
+      border: 1px solid var(--borda);
+      background: var(--cartao);
+      color: var(--texto);
+    }
+
+    .progresso { margin: 4px 0 16px; }
+    .progresso-texto { font-size: 0.9rem; color: var(--secundario); margin-bottom: 4px; }
+    .barra { height: 10px; background: var(--destaque-claro); border-radius: 999px; overflow: hidden; }
+    .barra > span { display: block; height: 100%; background: var(--verde); width: 0; transition: width 0.3s; }
+
+    .bimestre-titulo {
+      font-size: 1.05rem;
+      margin: 22px 0 8px;
+      color: var(--destaque);
+      border-bottom: 1px solid var(--borda);
+      padding-bottom: 4px;
+    }
+
+    .semana {
+      background: var(--cartao);
+      border: 1px solid var(--borda);
+      border-radius: 12px;
+      margin-bottom: 8px;
+    }
+    .semana.concluida { opacity: 0.65; }
+    .semana summary {
+      list-style: none;
+      cursor: pointer;
+      padding: 12px 14px;
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+    .semana summary::-webkit-details-marker { display: none; }
+    .semana summary::before {
+      content: "▸";
+      color: var(--secundario);
+      transition: transform 0.15s;
+      margin-top: 2px;
+    }
+    .semana[open] summary::before { transform: rotate(90deg); }
+    .numero { font-weight: 700; min-width: 58px; color: var(--secundario); }
+    .titulo-semana { font-weight: 600; flex: 1; }
+    .unidade {
+      font-size: 0.78rem;
+      color: var(--destaque);
+      background: var(--destaque-claro);
+      padding: 2px 8px;
+      border-radius: 999px;
+      white-space: nowrap;
+      align-self: center;
+    }
+    .detalhes { padding: 0 14px 14px 72px; font-size: 0.95rem; }
+    .detalhes p { margin: 6px 0; }
+    .rotulo { font-weight: 600; color: var(--secundario); }
+    .marcar { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.9rem; cursor: pointer; }
+
+    .vazio { text-align: center; color: var(--secundario); padding: 32px 0; }
+
+    @media (max-width: 480px) {
+      .detalhes { padding-left: 14px; }
+      .numero { min-width: 0; }
+    }
+    @media print {
+      .controles, .abas, .progresso, .marcar { display: none !important; }
+      .semana { break-inside: avoid; opacity: 1 !important; }
+      .semana:not([open]) .detalhes { display: none; }
+      body { background: #fff; color: #000; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Planejamento de Música 2027</h1>
+    <p class="subtitulo">2º, 3º e 4º ano · 40 semanas · 1 aula de 50 min por semana</p>
+
+    <nav class="abas" id="abas" aria-label="Ano escolar"></nav>
+
+    <div class="controles">
+      <input class="busca" id="busca" type="search" placeholder="Buscar por tema, atividade ou material" aria-label="Buscar">
+      <div id="filtros" style="display:flex; gap:6px; flex-wrap:wrap"></div>
+      <button class="botao" id="imprimir" type="button">Imprimir</button>
+    </div>
+
+    <div class="progresso" aria-live="polite">
+      <div class="progresso-texto" id="progressoTexto"></div>
+      <div class="barra"><span id="progressoBarra"></span></div>
+    </div>
+
+    <div id="lista"></div>
+  </main>
+
+  <script src="dados.js"></script>
+  <script>
+    const CHAVE = "musica2027-concluidas";
+    const ANOS = Object.keys(PLANEJAMENTO);
+    let anoAtual = ANOS[0];
+    let bimestreAtual = 0; // 0 = todos
+    let termo = "";
+
+    function lerConcluidas() {
+      try {
+        return JSON.parse(localStorage.getItem(CHAVE)) || {};
+      } catch (e) {
+        return {};
+      }
+    }
+
+    function gravarConcluidas(dados) {
+      try {
+        localStorage.setItem(CHAVE, JSON.stringify(dados));
+      } catch (e) {
+        // Sem armazenamento disponível: a marcação vale só nesta página.
+      }
+    }
+
+    let concluidas = lerConcluidas();
+
+    function chaveSemana(ano, semana) {
+      return ano + "|" + semana;
+    }
+
+    function criarElemento(tag, classe, texto) {
+      const el = document.createElement(tag);
+      if (classe) el.className = classe;
+      if (texto !== undefined) el.textContent = texto;
+      return el;
+    }
+
+    function renderAbas() {
+      const nav = document.getElementById("abas");
+      nav.innerHTML = "";
+      ANOS.forEach((ano) => {
+        const b = criarElemento("button", "aba", ano);
+        b.type = "button";
+        b.setAttribute("aria-pressed", String(ano === anoAtual));
+        b.addEventListener("click", () => {
+          anoAtual = ano;
+          renderTudo();
+        });
+        nav.appendChild(b);
+      });
+    }
+
+    function renderFiltros() {
+      const bloco = document.getElementById("filtros");
+      bloco.innerHTML = "";
+      const opcoes = [{ n: 0, t: "Todos" }].concat(
+        [...new Set(PLANEJAMENTO[anoAtual].map((s) => s.bimestre))].map((n) => ({ n, t: n + "º bim." }))
+      );
+      opcoes.forEach((op) => {
+        const b = criarElemento("button", "filtro", op.t);
+        b.type = "button";
+        b.setAttribute("aria-pressed", String(op.n === bimestreAtual));
+        b.addEventListener("click", () => {
+          bimestreAtual = op.n;
+          renderTudo();
+        });
+        bloco.appendChild(b);
+      });
+    }
+
+    function semanasFiltradas() {
+      const t = termo.trim().toLowerCase();
+      return PLANEJAMENTO[anoAtual].filter((s) => {
+        if (bimestreAtual && s.bimestre !== bimestreAtual) return false;
+        if (!t) return true;
+        const texto = [s.titulo, s.unidade, s.objetivo, s.atividade, s.materiais, s.avaliacao]
+          .join(" ")
+          .toLowerCase();
+        return texto.includes(t);
+      });
+    }
+
+    function atualizarProgresso() {
+      const semanas = PLANEJAMENTO[anoAtual];
+      const feitas = semanas.filter((s) => concluidas[chaveSemana(anoAtual, s.semana)]).length;
+      const pct = Math.round((feitas / semanas.length) * 100);
+      document.getElementById("progressoTexto").textContent =
+        "Concluídas no " + anoAtual + ": " + feitas + " de " + semanas.length + " (" + pct + "%)";
+      document.getElementById("progressoBarra").style.width = pct + "%";
+    }
+
+    function montarSemana(s) {
+      const chave = chaveSemana(anoAtual, s.semana);
+      const feita = !!concluidas[chave];
+
+      const det = criarElemento("details", "semana" + (feita ? " concluida" : ""));
+
+      const resumo = criarElemento("summary");
+      resumo.appendChild(criarElemento("span", "numero", "Sem. " + s.semana));
+      resumo.appendChild(criarElemento("span", "titulo-semana", s.titulo));
+      if (s.unidade) resumo.appendChild(criarElemento("span", "unidade", s.unidade));
+      det.appendChild(resumo);
+
+      const corpo = criarElemento("div", "detalhes");
+      [
+        ["Objetivo", s.objetivo],
+        ["Atividade", s.atividade],
+        ["Materiais", s.materiais],
+        ["Avaliação", s.avaliacao],
+      ].forEach(([rotulo, valor]) => {
+        const p = criarElemento("p");
+        p.appendChild(criarElemento("span", "rotulo", rotulo + ": "));
+        p.appendChild(document.createTextNode(valor));
+        corpo.appendChild(p);
+      });
+
+      const marca = criarElemento("label", "marcar");
+      const caixa = criarElemento("input");
+      caixa.type = "checkbox";
+      caixa.checked = feita;
+      caixa.addEventListener("change", () => {
+        if (caixa.checked) {
+          concluidas[chave] = true;
+        } else {
+          delete concluidas[chave];
+        }
+        gravarConcluidas(concluidas);
+        det.classList.toggle("concluida", caixa.checked);
+        atualizarProgresso();
+      });
+      marca.appendChild(caixa);
+      marca.appendChild(document.createTextNode("Aula concluída"));
+      corpo.appendChild(marca);
+
+      det.appendChild(corpo);
+      return det;
+    }
+
+    function renderLista() {
+      const lista = document.getElementById("lista");
+      lista.innerHTML = "";
+      const semanas = semanasFiltradas();
+
+      if (semanas.length === 0) {
+        lista.appendChild(criarElemento("p", "vazio", "Nenhuma semana encontrada com esses filtros."));
+        return;
+      }
+
+      let bimestreAnterior = null;
+      semanas.forEach((s) => {
+        if (s.bimestre !== bimestreAnterior) {
+          lista.appendChild(
+            criarElemento("h2", "bimestre-titulo", s.bimestre + "º bimestre — " + s.bimestreTitulo)
+          );
+          bimestreAnterior = s.bimestre;
+        }
+        lista.appendChild(montarSemana(s));
+      });
+    }
+
+    function renderTudo() {
+      renderAbas();
+      renderFiltros();
+      renderLista();
+      atualizarProgresso();
+    }
+
+    document.getElementById("busca").addEventListener("input", (e) => {
+      termo = e.target.value;
+      renderLista();
+    });
+
+    document.getElementById("imprimir").addEventListener("click", () => {
+      document.querySelectorAll("details.semana").forEach((d) => (d.open = true));
+      window.print();
+    });
+
+    renderTudo();
+  </script>
+</body>
+</html>

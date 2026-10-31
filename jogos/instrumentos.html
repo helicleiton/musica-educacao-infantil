@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jogo da memória dos instrumentos</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <a class="voltar" href="index.html">← Voltar</a>
+  <h1>Jogo da memória dos instrumentos</h1>
+  <p class="mensagem" id="mensagem">Toque em uma carta para ouvir o som e encontre o par!</p>
+  <p class="placar" id="placar">Pares: 0 / 6</p>
+  <div class="grade" id="grade"></div>
+  <button class="iniciar" id="reiniciar">Embaralhar de novo</button>
+
+  <script>
+    // Cada instrumento tem um timbre aproximado feito com Web Audio (sem arquivos externos).
+    const instrumentos = [
+      { emoji: "🥁", nome: "Tambor", tipo: "tambor" },
+      { emoji: "🎹", nome: "Piano", tipo: "piano" },
+      { emoji: "🎸", nome: "Violão", tipo: "violao" },
+      { emoji: "🎺", nome: "Trompete", tipo: "sopro" },
+      { emoji: "🔔", nome: "Sino", tipo: "sino" },
+      { emoji: "🎻", nome: "Violino", tipo: "corda" }
+    ];
+
+    let audio = null;
+    function contexto() {
+      if (!audio) audio = new (window.AudioContext || window.webkitAudioContext)();
+      return audio;
+    }
+
+    function tocar(tipo) {
+      const ctx = contexto();
+      const agora = ctx.currentTime;
+      const ganho = ctx.createGain();
+      ganho.connect(ctx.destination);
+
+      if (tipo === "tambor") {
+        const osc = ctx.createOscillator();
+        osc.frequency.setValueAtTime(160, agora);
+        osc.frequency.exponentialRampToValueAtTime(50, agora + 0.25);
+        ganho.gain.setValueAtTime(1, agora);
+        ganho.gain.exponentialRampToValueAtTime(0.001, agora + 0.3);
+        osc.connect(ganho);
+        osc.start(agora);
+        osc.stop(agora + 0.3);
+        return;
+      }
+
+      const config = {
+        piano: { onda: "triangle", freq: 523, duracao: 1.2 },
+        violao: { onda: "sawtooth", freq: 196, duracao: 1.0 },
+        sopro: { onda: "square", freq: 440, duracao: 0.8 },
+        sino: { onda: "sine", freq: 1046, duracao: 1.5 },
+        corda: { onda: "sawtooth", freq: 659, duracao: 1.2 }
+      }[tipo];
+
+      const osc = ctx.createOscillator();
+      osc.type = config.onda;
+      osc.frequency.setValueAtTime(config.freq, agora);
+      ganho.gain.setValueAtTime(0.25, agora);
+      ganho.gain.exponentialRampToValueAtTime(0.001, agora + config.duracao);
+      osc.connect(ganho);
+      osc.start(agora);
+      osc.stop(agora + config.duracao);
+    }
+
+    let cartas = [];
+    let viradas = [];
+    let bloqueado = false;
+    let pares = 0;
+
+    const grade = document.getElementById("grade");
+    const mensagem = document.getElementById("mensagem");
+    const placar = document.getElementById("placar");
+
+    function embaralhar(lista) {
+      return lista.sort(() => Math.random() - 0.5);
+    }
+
+    function montar() {
+      grade.innerHTML = "";
+      pares = 0;
+      viradas = [];
+      bloqueado = false;
+      placar.textContent = "Pares: 0 / " + instrumentos.length;
+      mensagem.textContent = "Toque em uma carta para ouvir o som e encontre o par!";
+
+      // Cada instrumento aparece duas vezes: uma carta com o emoji e outra com o nome.
+      const baralho = embaralhar(
+        instrumentos.flatMap((i) => [
+          { id: i.nome, texto: i.emoji, tipo: i.tipo },
+          { id: i.nome, texto: i.emoji, tipo: i.tipo }
+        ])
+      );
+
+      cartas = baralho.map((carta, indice) => {
+        const el = document.createElement("div");
+        el.className = "cartao-jogo escondido";
+        el.dataset.indice = indice;
+        el.addEventListener("click", () => virar(indice));
+        grade.appendChild(el);
+        return { ...carta, el, achada: false, virada: false };
+      });
+    }
+
+    function virar(indice) {
+      const carta = cartas[indice];
+      if (bloqueado || carta.virada || carta.achada) return;
+
+      carta.virada = true;
+      carta.el.classList.remove("escondido");
+      carta.el.textContent = carta.texto;
+      tocar(carta.tipo);
+      viradas.push(carta);
+
+      if (viradas.length === 2) {
+        bloqueado = true;
+        const [a, b] = viradas;
+        if (a.id === b.id) {
+          a.achada = b.achada = true;
+          a.el.classList.add("acertado");
+          b.el.classList.add("acertado");
+          pares++;
+          placar.textContent = "Pares: " + pares + " / " + instrumentos.length;
+          mensagem.textContent = "Isso mesmo! É o " + a.id + "!";
+          viradas = [];
+          bloqueado = false;
+          if (pares === instrumentos.length) {
+            mensagem.textContent = "Parabéns! Você encontrou todos os pares! 🎉";
+          }
+        } else {
+          mensagem.textContent = "Quase! Tente de novo.";
+          setTimeout(() => {
+            [a, b].forEach((c) => {
+              c.virada = false;
+              c.el.classList.add("escondido");
+              c.el.textContent = "";
+            });
+            viradas = [];
+            bloqueado = false;
+          }, 1200);
+        }
+      }
+    }
+
+    document.getElementById("reiniciar").addEventListener("click", montar);
+    montar();
+  </script>
+</body>
+</html>
