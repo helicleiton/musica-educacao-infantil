@@ -128,6 +128,10 @@
     .detalhes p { margin: 6px 0; }
     .rotulo { font-weight: 600; color: var(--secundario); }
     .marcar { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.9rem; cursor: pointer; }
+    .recursos { margin-top: 8px; }
+    .recursos ul { margin: 4px 0 0; padding-left: 18px; }
+    .recursos li { margin: 3px 0; }
+    .recursos a { color: var(--destaque); overflow-wrap: anywhere; }
 
     .vazio { text-align: center; color: var(--secundario); padding: 32px 0; }
 
@@ -146,7 +150,7 @@
 <body>
   <main>
     <h1>Planejamento de Música 2027</h1>
-    <p class="subtitulo">2º, 3º e 4º ano · 40 semanas · 1 aula de 50 min por semana</p>
+    <p class="subtitulo">2º, 3º e 4º ano · 40 semanas · 1 aula de 50 min por semana. Abra uma semana para ver os recursos.</p>
 
     <nav class="abas" id="abas" aria-label="Ano escolar"></nav>
 
@@ -254,6 +258,33 @@
       document.getElementById("progressoBarra").style.width = pct + "%";
     }
 
+    // Converte [texto](link), **negrito** e *itálico* em nós do DOM, sem usar innerHTML.
+    function formatarRecurso(texto) {
+      const frag = document.createDocumentFragment();
+      const padrao = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+      let ultimo = 0;
+      let m;
+      while ((m = padrao.exec(texto)) !== null) {
+        if (m.index > ultimo) frag.appendChild(document.createTextNode(texto.slice(ultimo, m.index)));
+        if (m[1]) {
+          const a = criarElemento("a", null, m[1]);
+          a.href = m[2];
+          if (/^https?:/.test(m[2])) {
+            a.target = "_blank";
+            a.rel = "noopener";
+          }
+          frag.appendChild(a);
+        } else if (m[3]) {
+          frag.appendChild(criarElemento("strong", null, m[3]));
+        } else {
+          frag.appendChild(criarElemento("em", null, m[4]));
+        }
+        ultimo = padrao.lastIndex;
+      }
+      if (ultimo < texto.length) frag.appendChild(document.createTextNode(texto.slice(ultimo)));
+      return frag;
+    }
+
     function montarSemana(s) {
       const chave = chaveSemana(anoAtual, s.semana);
       const feita = !!concluidas[chave];
@@ -278,6 +309,19 @@
         p.appendChild(document.createTextNode(valor));
         corpo.appendChild(p);
       });
+
+      if (s.recursos && s.recursos.length) {
+        const bloco = criarElemento("div", "recursos");
+        bloco.appendChild(criarElemento("p", "rotulo", "Recursos"));
+        const lista = criarElemento("ul");
+        s.recursos.forEach((linha) => {
+          const item = criarElemento("li");
+          item.appendChild(formatarRecurso(linha));
+          lista.appendChild(item);
+        });
+        bloco.appendChild(lista);
+        corpo.appendChild(bloco);
+      }
 
       const marca = criarElemento("label", "marcar");
       const caixa = criarElemento("input");
