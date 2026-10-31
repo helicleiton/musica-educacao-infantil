@@ -583,14 +583,13 @@ const PLANEJAMENTO = {
    "titulo": "Ritmo do nome",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
+   "bimestreTitulo": "Ritmo e duração",
    "objetivo": "perceber o ritmo das sílabas dos nomes.",
-   "atividade": "bater o ritmo de cada nome da turma; formar uma \"sinfonia de nomes\".",
-   "materiais": "lista de nomes",
-   "avaliacao": "reproduz o ritmo de pelo menos três nomes?",
+   "atividade": "bater o ritmo do próprio nome. Depois, a turma junta os nomes numa \"música de nomes\".",
+   "materiais": "lista de nomes na lousa",
+   "avaliacao": "bate o ritmo de pelo menos três nomes?",
    "recursos": [
-    "Roteiro: bater o ritmo de cada nome da turma. Depois, juntar os ritmos numa \"sinfonia de nomes\".",
-    "Recursos: lista de nomes na lousa."
+    "Brincadeira: bater o ritmo do próprio nome e juntar os nomes numa \"música de nomes\"."
    ]
   },
   {
@@ -598,137 +597,128 @@ const PLANEJAMENTO = {
    "titulo": "Sons longos e curtos",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "diferenciar sons de duração longa e curta.",
-   "atividade": "jogo com o corpo: \"sons longos\" (sustentar a voz) e \"sons curtos\" (palmas rápidas).",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "diferenciar som longo e som curto.",
+   "atividade": "jogo \"longo ou curto\": o professor fala uma palavra com a voz (longa ou curta) e a turma responde com o gesto certo.",
    "materiais": "nenhum",
-   "avaliacao": "diferencia as durações?",
+   "avaliacao": "diferencia os dois sons?",
    "recursos": [
-    "Roteiro: sons longos sustentam a voz; sons curtos são palmas rápidas. O professor alterna e a turma responde.",
-    "Recursos: nenhum."
+    "Brincadeira: \"longo ou curto\". O professor fala com a voz e a turma responde com o gesto."
    ]
   },
   {
    "semana": 3,
-   "titulo": "Cantiga e duração",
+   "titulo": "Cantiga com durações",
    "unidade": "Contextos e práticas",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "cantar uma cantiga respeitando as durações.",
-   "atividade": "aprender uma cantiga por frases, marcando sons longos com braços abertos.",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "cantar uma cantiga marcando sons longos e curtos.",
+   "atividade": "cantar *Atirei o pau no gato*, com os braços abertos nos sons longos e palmas nos curtos.",
    "materiais": "letra em cartaz",
-   "avaliacao": "mantém a duração dos sons?",
+   "avaliacao": "marca as durações com o gesto?",
    "recursos": [
     "Música: *Atirei o pau no gato* ([buscar](https://www.youtube.com/results?search_query=Atirei+o+pau+no+gato+cantiga)).",
-    "Roteiro: marcar os sons longos com os braços abertos e os curtos com palmas.",
-    "Recursos: letra em cartaz."
+    "Brincadeira: braços abertos nos sons longos e palmas nos curtos."
    ]
   },
   {
    "semana": 4,
-   "titulo": "Notação gráfica das durações",
+   "titulo": "Desenhando o ritmo",
    "unidade": "Notação e registro musical",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "registrar durações com símbolos próprios.",
-   "atividade": "traço longo para som longo, bolinha para som curto; registrar uma frase da cantiga.",
-   "materiais": "papel, lápis",
-   "avaliacao": "o registro representa as durações?",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "registrar um ritmo com desenho.",
+   "atividade": "traço longo para som longo e bolinha para som curto. Cada grupo desenha uma frase da cantiga.",
+   "materiais": "papel e lápis",
+   "avaliacao": "o desenho mostra o ritmo?",
    "recursos": [
-    "Roteiro: traço longo para som longo, bolinha para som curto. Cada grupo registra uma frase da cantiga.",
-    "Recursos: papel e lápis."
+    "Material: papel e lápis. Traço longo para som longo e bolinha para som curto."
    ]
   },
   {
    "semana": 5,
-   "titulo": "Tocar a partir do registro",
+   "titulo": "Tocando o desenho",
    "unidade": "Notação e registro musical",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "executar um registro gráfico.",
-   "atividade": "cada grupo recebe o registro de outro grupo e toca.",
-   "materiais": "registros da semana anterior, instrumentos",
-   "avaliacao": "toca a partir do registro?",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "tocar um ritmo a partir de um desenho.",
+   "atividade": "cada grupo recebe o desenho de outro grupo e toca.",
+   "materiais": "desenhos da semana 4 e instrumentos",
+   "avaliacao": "toca o que está desenhado?",
    "recursos": [
-    "Roteiro: cada grupo recebe o registro de outro grupo e toca.",
-    "Jogo de apoio: [siga_ritmo.html](../../jogos/siga_ritmo.html), para repetir sequências com as cores.",
-    "Recursos: registros da semana 4 e instrumentos."
+    "Brincadeira: cada grupo toca o desenho de outro grupo."
    ]
   },
   {
    "semana": 6,
-   "titulo": "Pulso e acento",
+   "titulo": "Marcha com acento",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "perceber o tempo forte.",
-   "atividade": "marchar com acento no primeiro tempo de cada compasso (1-2-3, 1-2-3).",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "perceber o tempo forte da música.",
+   "atividade": "marchar contando \"1-2-3-4\". O 1 é forte, com pisada mais firme.",
    "materiais": "caixa de som",
-   "avaliacao": "marca o tempo forte?",
+   "avaliacao": "marca o 1 mais forte?",
    "recursos": [
-    "Roteiro: marchar com acento no primeiro tempo de cada compasso (1-2-3, 1-2-3).",
-    "Recursos: caixa de som. Para uma música em 3 tempos, busque \"valsa infantil\" no [YouTube](https://www.youtube.com/results?search_query=valsa+infantil+3+tempos)."
+    "Brincadeira: marchar contando \"1-2-3-4\", com pisada mais firme no 1."
    ]
   },
   {
    "semana": 7,
-   "titulo": "Cantigas com pulso ternário",
-   "unidade": "Contextos e práticas",
+   "titulo": "Valsa e marcha",
+   "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "cantar em compasso ternário.",
-   "atividade": "escutar e cantar uma canção em 3 tempos (valsa ou cantiga com \"1-2-3\").",
-   "materiais": "gravação, letra",
-   "avaliacao": "sente os 3 tempos?",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "perceber a diferença entre música em 2 e em 3 tempos.",
+   "atividade": "ouvir uma marcha (1-2) e uma valsa (1-2-3). Bater as mãos no ritmo de cada uma.",
+   "materiais": "gravações de marcha e valsa",
+   "avaliacao": "diferencia as duas?",
    "recursos": [
-    "Música: *Ciranda, cirandinha* ([buscar](https://www.youtube.com/results?search_query=Ciranda+cirandinha+cantiga+de+roda)) para cantar em roda; use a valsa da semana 6 para o compasso ternário.",
-    "Roteiro: marcar o pulso da canção batendo as mãos e comparar com a valsa, sentindo a diferença entre o 1-2 e o 1-2-3. Confira o compasso da versão escolhida antes da aula.",
-    "Recursos: gravação."
+    "Músicas: uma marcha e uma valsa. Busque [valsa infantil](https://www.youtube.com/results?search_query=valsa+infantil+para+criancas) e [marcha infantil](https://www.youtube.com/results?search_query=marcha+infantil+para+criancas).",
+    "Brincadeira: bater 1-2 na marcha e 1-2-3 na valsa."
    ]
   },
   {
    "semana": 8,
-   "titulo": "Instrumentos de percussão em grupo",
+   "titulo": "Percussão em grupo",
    "unidade": "Processos de criação",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "tocar um padrão rítmico em grupo.",
-   "atividade": "cada grupo cria um padrão de 4 compassos com instrumentos; a turma toca em conjunto.",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "criar e tocar um ritmo simples em grupo.",
+   "atividade": "cada grupo cria um ritmo de quatro batidas com instrumentos. A turma toca junto.",
    "materiais": "instrumentos de percussão",
-   "avaliacao": "mantém o próprio padrão?",
+   "avaliacao": "mantém o próprio ritmo?",
    "recursos": [
-    "Roteiro: cada grupo cria um padrão de quatro compassos com instrumentos. A turma toca em conjunto.",
-    "Recursos: pandeiro, triângulo, blocos e latas."
+    "Material: instrumentos de percussão.",
+    "Brincadeira: cada grupo cria um ritmo de quatro batidas e toca junto."
    ]
   },
   {
    "semana": 9,
-   "titulo": "Ritmo do cotidiano",
+   "titulo": "Sons da escola em ritmo",
    "unidade": "Materialidades",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
+   "bimestreTitulo": "Ritmo e duração",
    "objetivo": "transformar sons do cotidiano em ritmo.",
-   "atividade": "escutar sons da escola (sino, porta, passos) e transformá-los em padrão rítmico.",
+   "atividade": "ouvir sons da escola (sino, porta, passos) e tocar um deles como ritmo.",
    "materiais": "objetos da sala",
-   "avaliacao": "cria um padrão a partir de um som real?",
+   "avaliacao": "cria um ritmo a partir de um som real?",
    "recursos": [
-    "Roteiro: escutar os sons da escola (sino, porta, passos) e transformá-los em padrão rítmico.",
-    "Recursos: objetos da sala."
+    "Brincadeira: transformar um som da escola (sino, porta, passos) num ritmo."
    ]
   },
   {
    "semana": 10,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 1,
-   "bimestreTitulo": "Duração e ritmo",
-   "objetivo": "reunir os padrões rítmicos do bimestre.",
-   "atividade": "apresentação em grupos do padrão criado na sem. 8.",
+   "bimestreTitulo": "Ritmo e duração",
+   "objetivo": "mostrar os ritmos criados.",
+   "atividade": "cada grupo toca o ritmo da semana 8 para outra turma.",
    "materiais": "instrumentos",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: apresentação dos padrões criados na semana 8.",
-    "Recursos: instrumentos."
+    "Brincadeira: cada grupo toca o ritmo da semana 8 para outra turma."
    ]
   },
   {
@@ -736,121 +726,113 @@ const PLANEJAMENTO = {
    "titulo": "Forte e fraco",
    "unidade": "Elementos da linguagem",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "perceber variações de intensidade.",
-   "atividade": "cantar \"forte\" e \"fraco\" com gestos; jogo do maestro (a mão sobe e desce).",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "perceber mudanças de intensidade.",
+   "atividade": "jogo do maestro: a mão sobe para tocar forte e desce para tocar fraco.",
    "materiais": "nenhum",
    "avaliacao": "responde ao gesto de intensidade?",
    "recursos": [
-    "Roteiro: cantar \"forte\" e \"fraco\" com gestos. Jogo do maestro: a mão sobe para forte e desce para fraco.",
-    "Recursos: nenhum."
+    "Brincadeira: jogo do maestro. A mão sobe para forte e desce para fraco."
    ]
   },
   {
    "semana": 12,
-   "titulo": "Dinâmica na cantiga",
+   "titulo": "Cantiga mais forte ou mais fraca",
    "unidade": "Elementos da linguagem",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "aplicar dinâmica numa cantiga.",
-   "atividade": "cantar a mesma cantiga em piano (suave) e forte; discutir a diferença.",
-   "materiais": "cantiga conhecida",
-   "avaliacao": "muda a intensidade quando solicitado?",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "aplicar a intensidade numa cantiga.",
+   "atividade": "cantar *Terezinha de Jesus* suave e depois forte. A turma diz o que mudou.",
+   "materiais": "letra",
+   "avaliacao": "muda a intensidade quando pedido?",
    "recursos": [
     "Música: *Terezinha de Jesus* ([buscar](https://www.youtube.com/results?search_query=Terezinha+de+Jesus+cantiga)).",
-    "Roteiro: cantar a mesma cantiga em voz suave e depois forte. Discutir o que mudou.",
-    "Recursos: letra."
+    "Brincadeira: cantar suave e depois forte, e dizer o que mudou."
    ]
   },
   {
    "semana": 13,
-   "titulo": "Crescendo e diminuendo",
+   "titulo": "Ficando mais forte e mais fraco",
    "unidade": "Elementos da linguagem",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "perceber e executar aumento e diminuição de intensidade.",
-   "atividade": "instrumentos tocam gradualmente mais forte ou mais fraco, com o gesto do professor.",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "perceber aumento e diminuição gradual do som.",
+   "atividade": "os instrumentos começam fraco e vão ficando mais forte, depois voltam a ficar fraco, guiados pelo gesto do professor.",
    "materiais": "instrumentos",
-   "avaliacao": "consegue fazer a mudança gradual?",
+   "avaliacao": "faz a mudança gradual?",
    "recursos": [
-    "Roteiro: os instrumentos tocam aumentando e diminuindo gradualmente, guiados pelo gesto do professor.",
-    "Recursos: instrumentos."
+    "Brincadeira: os instrumentos começam fracos, ficam fortes e voltam a ficar fracos, guiados pelo professor."
    ]
   },
   {
    "semana": 14,
-   "titulo": "Escuta: música e intensidade",
+   "titulo": "Escutando intensidade",
    "unidade": "Contextos e práticas",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "ouvir trechos com dinâmicas diferentes.",
-   "atividade": "escutar dois trechos de estilos diferentes; apontar onde a música fica mais forte ou fraca.",
-   "materiais": "gravações",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "perceber mudanças de som numa música.",
+   "atividade": "escutar um trecho curto de *Pedro e o lobo* (Prokofiev), com personagens diferentes. A turma aponta quando a música fica mais forte ou fraca.",
+   "materiais": "gravação",
    "avaliacao": "identifica as mudanças?",
    "recursos": [
-    "Roteiro: escutar dois trechos de estilos diferentes e apontar onde a música fica mais forte ou fraca. Sugestão de peça curta: [Pedro e o lobo, de Prokofiev](https://www.youtube.com/results?search_query=Pedro+e+o+lobo+Prokofiev+para+criancas) (trecho do passarinho).",
-    "Recursos: gravações."
+    "Música: *Pedro e o lobo*, de Prokofiev ([buscar trecho](https://www.youtube.com/results?search_query=Pedro+e+o+lobo+Prokofiev+para+criancas)). A turma aponta quando a música fica mais forte ou fraca."
    ]
   },
   {
    "semana": 15,
-   "titulo": "Forma AB",
+   "titulo": "Pergunta e resposta",
    "unidade": "Elementos da linguagem",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "perceber a forma de uma canção com duas partes.",
-   "atividade": "cantar uma canção A (refrão) e B (estrofe); alternar com a turma.",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "perceber duas partes numa música.",
+   "atividade": "a turma canta uma frase (pergunta) e o grupo responde com outra frase (resposta).",
    "materiais": "letra com as partes marcadas",
-   "avaliacao": "distingue as duas partes?",
+   "avaliacao": "distingue pergunta e resposta?",
    "recursos": [
-    "Música: *A canoa virou* ([buscar](https://www.youtube.com/results?search_query=A+canoa+virou+cantiga)), com estrofe (A) e refrão (B).",
-    "Roteiro: cantar as duas partes e alternar com a turma.",
-    "Recursos: letra com as partes marcadas."
+    "Brincadeira: a turma canta uma frase (pergunta) e o grupo responde com outra (resposta)."
    ]
   },
   {
    "semana": 16,
-   "titulo": "Criar uma forma AB",
+   "titulo": "Criar pergunta e resposta",
    "unidade": "Processos de criação",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "criar uma pequena música em duas partes.",
-   "atividade": "em grupos, criar a parte A (padrão rítmico) e a parte B (sons diferentes).",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "criar uma pequena música com pergunta e resposta.",
+   "atividade": "em grupos, criar uma frase de pergunta com instrumentos e uma de resposta, bem diferente.",
    "materiais": "instrumentos",
-   "avaliacao": "as duas partes são contrastantes?",
+   "avaliacao": "as duas frases são diferentes?",
    "recursos": [
-    "Roteiro: em grupos, criar a parte A com um padrão rítmico e a parte B com sons diferentes.",
-    "Recursos: instrumentos."
+    "Brincadeira: em grupos, criar uma frase de pergunta e uma de resposta, bem diferentes."
    ]
   },
   {
    "semana": 17,
-   "titulo": "Forma ABA",
+   "titulo": "Começo, meio e volta",
    "unidade": "Elementos da linguagem",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "perceber e executar uma forma com retorno.",
-   "atividade": "juntar A, B e A novamente; tocar e cantar.",
-   "materiais": "partes criadas na sem. 16",
-   "avaliacao": "retorna à parte A?",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "perceber uma música que volta ao começo.",
+   "atividade": "tocar a parte A (pergunta), a parte B (resposta) e a parte A de novo.",
+   "materiais": "partes criadas na semana 16",
+   "avaliacao": "volta ao começo no final?",
    "recursos": [
-    "Roteiro: juntar A, B e A novamente. Tocar e cantar.",
-    "Recursos: partes criadas na semana 16."
+    "Brincadeira: tocar A (pergunta), B (resposta) e A de novo."
    ]
   },
   {
    "semana": 18,
-   "titulo": "Instrumentos alternativos",
+   "titulo": "Instrumentos de sucata",
    "unidade": "Materialidades",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "criar instrumentos com materiais recicláveis.",
-   "atividade": "construir chocalhos, tambores e flautas simples; testar os sons.",
-   "materiais": "garrafas, latas, papelão, grãos",
-   "avaliacao": "o instrumento produz som controlado?",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "criar instrumentos simples e perceber como o material muda o som.",
+   "atividade": "construir um tambor com lata e balão, ou um chocalho com tampinhas. Testar os sons.",
+   "materiais": "latas, balões, tampinhas, fita adesiva",
+   "avaliacao": "o instrumento produz um som?",
    "recursos": [
-    "Roteiro: construir chocalhos, tambores e flautas simples. Testar os sons e escolher o melhor.",
-    "Recursos: garrafas PET, latas, papelão, grãos, tubos de papelão."
+    "Material: latas, balões, tampinhas, fita adesiva.",
+    "Brincadeira: fazer um tambor com lata e balão, ou um chocalho com tampinhas."
    ]
   },
   {
@@ -858,29 +840,27 @@ const PLANEJAMENTO = {
    "titulo": "Orquestra da turma",
    "unidade": "Processos de criação",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "tocar em conjunto com instrumentos alternativos.",
-   "atividade": "a turma organiza uma \"orquestra\" com os instrumentos construídos; o professor rege.",
-   "materiais": "instrumentos da sem. 18",
-   "avaliacao": "segue o gesto do regente?",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "tocar em conjunto com os instrumentos feitos.",
+   "atividade": "a turma toca junta. O professor aponta quem entra e quem para, como um regente.",
+   "materiais": "instrumentos da semana 18",
+   "avaliacao": "entra e para quando o regente mostra?",
    "recursos": [
-    "Roteiro: a turma organiza uma \"orquestra\" com os instrumentos construídos. O professor rege.",
-    "Recursos: instrumentos da semana 18."
+    "Brincadeira: o professor aponta quem entra e quem para, como um regente."
    ]
   },
   {
    "semana": 20,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 2,
-   "bimestreTitulo": "Dinâmica e forma",
-   "objetivo": "apresentar a forma ABA criada pela turma.",
-   "atividade": "apresentação com a orquestra e a forma ABA.",
-   "materiais": "instrumentos, cenário",
+   "bimestreTitulo": "Forte e fraco, pergunta e resposta",
+   "objetivo": "mostrar a pergunta e a resposta com instrumentos.",
+   "atividade": "cada grupo apresenta sua música de pergunta e resposta.",
+   "materiais": "instrumentos",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: apresentação da forma ABA com a orquestra.",
-    "Recursos: instrumentos e cenário."
+    "Brincadeira: cada grupo mostra sua música de pergunta e resposta."
    ]
   },
   {
@@ -888,47 +868,44 @@ const PLANEJAMENTO = {
    "titulo": "Música do Nordeste",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "conhecer a música nordestina.",
-   "atividade": "ouvir um baião ou um xote; identificar instrumentos (sanfona, zabumba, triângulo).",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "conhecer o baião.",
+   "atividade": "ouvir *Asa Branca* e identificar a sanfona e a zabumba.",
    "materiais": "gravação",
-   "avaliacao": "nomeia pelo menos dois instrumentos?",
+   "avaliacao": "nomeia dois instrumentos?",
    "recursos": [
     "Música: *Asa Branca*, de Luiz Gonzaga ([buscar](https://www.youtube.com/results?search_query=Asa+Branca+Luiz+Gonzaga+infantil)).",
-    "Roteiro: ouvir o baião e identificar sanfona, zabumba e triângulo.",
-    "Recursos: gravação."
+    "Conversa: identificar a sanfona e a zabumba."
    ]
   },
   {
    "semana": 22,
-   "titulo": "Cantar o Nordeste",
+   "titulo": "Cantar o baião",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "cantar um trecho de música nordestina.",
-   "atividade": "aprender o refrão e tocar o pulso do baião.",
-   "materiais": "letra, instrumentos",
-   "avaliacao": "mantém o pulso do baião?",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "cantar o refrão e bater a batida do baião.",
+   "atividade": "aprender o refrão de *Asa Branca* e tocar a batida com as mãos nas pernas.",
+   "materiais": "letra e instrumentos",
+   "avaliacao": "mantém a batida?",
    "recursos": [
     "Música: *Asa Branca* (refrão).",
-    "Roteiro: aprender o refrão e tocar o pulso do baião com as mãos e os pés.",
-    "Recursos: letra e instrumentos."
+    "Brincadeira: bater a batida do baião nas pernas enquanto canta."
    ]
   },
   {
    "semana": 23,
-   "titulo": "Música do Sudeste e Sul",
+   "titulo": "Música do Sul e do Sudeste",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "conhecer gêneros do Sudeste e do Sul.",
-   "atividade": "ouvir um samba e uma milonga; comparar ritmos e instrumentos.",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "conhecer o samba e a milonga.",
+   "atividade": "ouvir um samba e uma milonga. A turma diz uma diferença entre elas.",
    "materiais": "gravações",
-   "avaliacao": "diferencia os gêneros?",
+   "avaliacao": "diferencia os dois gêneros?",
    "recursos": [
-    "Músicas: um samba e uma milonga. Para a milonga gaúcha, busque \"milonga gaúcha infantil\" no [YouTube](https://www.youtube.com/results?search_query=milonga+gaucha+infantil).",
-    "Roteiro: comparar ritmos e instrumentos dos dois gêneros.",
-    "Recursos: gravações."
+    "Músicas: um samba e uma milonga gaúcha ([buscar milonga infantil](https://www.youtube.com/results?search_query=milonga+gaucha+infantil)).",
+    "Conversa: dizer uma diferença entre os dois."
    ]
   },
   {
@@ -936,30 +913,29 @@ const PLANEJAMENTO = {
    "titulo": "Cantar o samba",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "cantar e tocar um samba simples.",
-   "atividade": "aprender o refrão do samba; tocar a batida com instrumentos.",
-   "materiais": "letra, instrumentos",
-   "avaliacao": "toca a batida do samba?",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "cantar o refrão de um samba.",
+   "atividade": "aprender o refrão de *Aquarela* e tocar a batida do samba com instrumentos.",
+   "materiais": "letra e instrumentos",
+   "avaliacao": "canta e toca junto?",
    "recursos": [
-    "Música: *Aquarela*, de Toquinho e Vinicius ([buscar](https://www.youtube.com/results?search_query=Aquarela+Toquinho+infantil)). Escolha uma versão de andamento adequado.",
-    "Roteiro: aprender o refrão e tocar a batida do samba.",
-    "Recursos: letra e instrumentos de percussão."
+    "Música: *Aquarela*, de Toquinho e Vinicius ([buscar](https://www.youtube.com/results?search_query=Aquarela+Toquinho+infantil)).",
+    "Brincadeira: cantar o refrão e tocar a batida do samba."
    ]
   },
   {
    "semana": 25,
-   "titulo": "Música da Amazônia e do Centro-Oeste",
+   "titulo": "Música indígena",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "conhecer a diversidade musical regional.",
-   "atividade": "ouvir um trecho de música indígena ou ribeirinha; discutir o contexto.",
-   "materiais": "gravação",
-   "avaliacao": "relaciona a música ao lugar de origem?",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "conhecer um canto indígena e o contexto em que ele existe.",
+   "atividade": "ouvir um canto indígena de gravação de pesquisa e conversar sobre quando e por que as pessoas cantam.",
+   "materiais": "gravação de acervo",
+   "avaliacao": "fala sobre o contexto do canto?",
    "recursos": [
-    "Roteiro: escutar um canto indígena e discutir o contexto em que ele é cantado. Busque \"canto indígena brasileiro\" no [YouTube](https://www.youtube.com/results?search_query=canto+indigena+brasileiro+gravacao) e escolha uma gravação de pesquisa ou acervo, não uma versão adaptada.",
-    "Recursos: gravação."
+    "Escuta: um canto indígena de acervo de pesquisa ([buscar](https://www.youtube.com/results?search_query=canto+indigena+brasileiro+gravacao)).",
+    "Conversa: quando e por que essas pessoas cantam."
    ]
   },
   {
@@ -967,44 +943,41 @@ const PLANEJAMENTO = {
    "titulo": "Mapa musical do Brasil",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "relacionar gêneros às regiões.",
-   "atividade": "a turma monta um mapa com os gêneros estudados.",
-   "materiais": "mapa do Brasil, cartões",
-   "avaliacao": "relaciona pelo menos quatro gêneros às regiões?",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "ligar um gênero a uma região.",
+   "atividade": "a turma coloca os gêneros estudados num mapa do Brasil com cartões.",
+   "materiais": "mapa impresso e cartões",
+   "avaliacao": "liga pelo menos três gêneros às regiões?",
    "recursos": [
-    "Roteiro: a turma coloca os gêneros estudados num mapa do Brasil.",
-    "Recursos: mapa do Brasil impresso e cartões com os gêneros."
+    "Material: mapa do Brasil impresso e cartões com os gêneros."
    ]
   },
   {
    "semana": 27,
-   "titulo": "Corpo e dança regional",
+   "titulo": "Dançar a música regional",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "movimentar-se com um gênero regional.",
-   "atividade": "roda de dança simples com o baião ou o samba.",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "movimentar-se com o ritmo de um gênero regional.",
+   "atividade": "dançar baião ou samba em roda, com passos simples.",
    "materiais": "espaço livre",
-   "avaliacao": "acompanha o pulso com o corpo?",
+   "avaliacao": "acompanha o ritmo com o corpo?",
    "recursos": [
-    "Roteiro: roda de dança simples com baião ou samba.",
-    "Recursos: espaço livre."
+    "Brincadeira: roda de baião ou samba, com passos simples."
    ]
   },
   {
    "semana": 28,
-   "titulo": "Instrumentos da música regional",
+   "titulo": "Instrumentos regionais",
    "unidade": "Materialidades",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "conhecer e experimentar instrumentos regionais.",
-   "atividade": "sanfona, zabumba, triângulo, pandeiro; cada criança experimenta um.",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "conhecer e tocar instrumentos regionais.",
+   "atividade": "sanfona, zabumba, triângulo e pandeiro. Cada criança toca um.",
    "materiais": "instrumentos ou vídeos",
    "avaliacao": "nomeia e toca um instrumento?",
    "recursos": [
-    "Roteiro: apresentar sanfona, zabumba, triângulo e pandeiro. Cada criança experimenta um.",
-    "Recursos: instrumentos ou vídeos de apresentação."
+    "Instrumentos: sanfona, zabumba, triângulo e pandeiro. Cada criança toca um."
    ]
   },
   {
@@ -1012,119 +985,111 @@ const PLANEJAMENTO = {
    "titulo": "Criar um trecho regional",
    "unidade": "Processos de criação",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "criar um trecho com características de um gênero.",
-   "atividade": "em grupos, criar um trecho com pulso e instrumentos de um gênero estudado.",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "criar um trecho com o ritmo de um gênero.",
+   "atividade": "em grupos, criar um trecho com a batida do baião ou do samba.",
    "materiais": "instrumentos",
-   "avaliacao": "o trecho tem características do gênero?",
+   "avaliacao": "o trecho tem a batida do gênero?",
    "recursos": [
-    "Roteiro: em grupos, criar um trecho com pulso e instrumentos de um gênero estudado.",
-    "Recursos: instrumentos."
+    "Brincadeira: em grupos, criar um trecho com a batida do baião ou do samba."
    ]
   },
   {
    "semana": 30,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 3,
-   "bimestreTitulo": "Música brasileira regional",
-   "objetivo": "apresentar o trecho regional criado.",
-   "atividade": "apresentação dos grupos para a turma.",
+   "bimestreTitulo": "Música brasileira e suas regiões",
+   "objetivo": "apresentar o trecho regional.",
+   "atividade": "cada grupo toca seu trecho para a turma.",
    "materiais": "instrumentos",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: cada grupo apresenta o trecho regional criado.",
-    "Recursos: instrumentos."
+    "Brincadeira: cada grupo toca seu trecho para a turma."
    ]
   },
   {
    "semana": 31,
-   "titulo": "Elementos de uma composição",
+   "titulo": "O que faz uma música",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "compreender os elementos básicos de uma música.",
-   "atividade": "discutir pulso, altura, dinâmica e forma com exemplos tocados pelo professor.",
-   "materiais": "instrumentos",
-   "avaliacao": "nomeia pelo menos três elementos?",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "reconhecer os elementos básicos de uma música.",
+   "atividade": "ouvir exemplos e apontar: tem batida? É rápida ou devagar? Tem forte e fraco? Tem começo, meio e fim?",
+   "materiais": "gravações",
+   "avaliacao": "aponta pelo menos três elementos?",
    "recursos": [
-    "Roteiro: o professor toca exemplos e a turma identifica pulso, altura, dinâmica e forma.",
-    "Recursos: instrumentos."
+    "Escuta: exemplos para apontar batida, andamento, forte e fraco, começo, meio e fim."
    ]
   },
   {
    "semana": 32,
-   "titulo": "Ideia individual",
+   "titulo": "Minha ideia musical",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "criar uma ideia musical individual.",
-   "atividade": "cada criança cria um padrão de 4 compassos.",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "criar uma pequena ideia musical sozinho.",
+   "atividade": "cada criança cria um ritmo de quatro batidas com voz ou instrumento.",
    "materiais": "instrumentos",
-   "avaliacao": "cria e repete o próprio padrão?",
+   "avaliacao": "cria e repete o próprio ritmo?",
    "recursos": [
-    "Roteiro: cada criança cria um padrão de quatro compassos.",
-    "Recursos: instrumentos."
+    "Brincadeira: cada criança cria um ritmo de quatro batidas."
    ]
   },
   {
    "semana": 33,
-   "titulo": "Registro das ideias",
+   "titulo": "Desenhando a minha ideia",
    "unidade": "Notação e registro musical",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "registrar a ideia individual.",
-   "atividade": "registro com símbolos próprios, incluindo durações e intensidade.",
-   "materiais": "papel, lápis",
-   "avaliacao": "o registro mostra durações e intensidade?",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "registrar a ideia com desenho.",
+   "atividade": "desenhar com bolinhas e traços, e marcar onde fica forte.",
+   "materiais": "papel e lápis de cor",
+   "avaliacao": "o desenho mostra a ideia?",
    "recursos": [
-    "Roteiro: registrar a ideia com símbolos próprios, incluindo durações e intensidade.",
-    "Recursos: papel e lápis."
+    "Material: papel e lápis de cor. Bolinhas, traços e marcas de forte."
    ]
   },
   {
    "semana": 34,
-   "titulo": "Juntar as ideias no grupo",
+   "titulo": "Juntando ideias no grupo",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "combinar as ideias individuais numa composição de grupo.",
-   "atividade": "cada grupo junta três ideias numa forma AB ou ABA.",
-   "materiais": "registros, instrumentos",
-   "avaliacao": "a composição tem forma definida?",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "juntar ideias de um grupo numa música.",
+   "atividade": "cada grupo junta três ideias em uma música com começo, meio e fim.",
+   "materiais": "desenhos e instrumentos",
+   "avaliacao": "a música tem começo, meio e fim?",
    "recursos": [
-    "Roteiro: cada grupo junta três ideias numa forma AB ou ABA.",
-    "Recursos: registros e instrumentos."
+    "Brincadeira: juntar três ideias numa música com começo, meio e fim."
    ]
   },
   {
    "semana": 35,
-   "titulo": "Ensaio da composição",
+   "titulo": "Ensaio da música do grupo",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "ensaiar a composição do grupo.",
-   "atividade": "ensaio com contagem de pulso e marcação de entradas.",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "ensaiar a música do grupo.",
+   "atividade": "ensaiar com contagem e combinar quem entra primeiro.",
    "materiais": "instrumentos",
-   "avaliacao": "o grupo toca a composição do início ao fim?",
+   "avaliacao": "o grupo toca do começo ao fim?",
    "recursos": [
-    "Roteiro: ensaio com contagem de pulso e marcação de entradas.",
-    "Recursos: instrumentos."
+    "Brincadeira: ensaiar com contagem e combinar quem entra primeiro."
    ]
   },
   {
    "semana": 36,
-   "titulo": "Composição de cada grupo",
-   "unidade": "Processos de criação",
+   "titulo": "Mostrando a música do grupo",
+   "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "apresentar a composição para a turma.",
-   "atividade": "cada grupo apresenta; a turma comenta usando os elementos aprendidos.",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "apresentar a música do grupo.",
+   "atividade": "cada grupo toca. A turma diz o que mais gostou.",
    "materiais": "instrumentos",
-   "avaliacao": "consegue justificar as escolhas?",
+   "avaliacao": "explica uma escolha da música?",
    "recursos": [
-    "Roteiro: cada grupo apresenta, e a turma comenta usando os elementos aprendidos.",
-    "Recursos: instrumentos."
+    "Brincadeira: cada grupo toca. A turma diz o que mais gostou."
    ]
   },
   {
@@ -1132,14 +1097,13 @@ const PLANEJAMENTO = {
    "titulo": "Ensaio geral",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
+   "bimestreTitulo": "Criar e mostrar uma música",
    "objetivo": "preparar a apresentação final.",
-   "atividade": "ensaio com todas as composições.",
+   "atividade": "ensaiar todas as músicas do ano, na ordem da apresentação.",
    "materiais": "espaço de apresentação",
    "avaliacao": "a apresentação está pronta?",
    "recursos": [
-    "Roteiro: ensaio com todas as composições.",
-    "Recursos: espaço de apresentação."
+    "Brincadeira: ensaiar todas as músicas, na ordem da apresentação."
    ]
   },
   {
@@ -1147,44 +1111,41 @@ const PLANEJAMENTO = {
    "titulo": "Apresentação final",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "apresentar as composições para a escola ou as famílias.",
-   "atividade": "apresentação de todas as composições.",
-   "materiais": "instrumentos, cenário",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "apresentar as músicas para a escola ou as famílias.",
+   "atividade": "apresentar as músicas dos grupos.",
+   "materiais": "instrumentos e cenário simples",
    "avaliacao": "participa com segurança?",
    "recursos": [
-    "Roteiro: apresentação de todas as composições para a escola ou as famílias.",
-    "Recursos: instrumentos e cenário."
+    "Brincadeira: apresentar as músicas dos grupos para a escola ou as famílias."
    ]
   },
   {
    "semana": 39,
-   "titulo": "Roda de avaliação",
+   "titulo": "Roda de conversa",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
-   "objetivo": "refletir sobre o processo.",
-   "atividade": "roda de conversa: \"Como foi criar? O que eu quero aprender no próximo ano?\"",
-   "materiais": "papel",
-   "avaliacao": "reconhece as próprias conquistas?",
+   "bimestreTitulo": "Criar e mostrar uma música",
+   "objetivo": "conversar sobre o que foi aprendido.",
+   "atividade": "roda com as perguntas \"O que foi mais difícil?\" e \"O que quero aprender no próximo ano?\".",
+   "materiais": "nenhum",
+   "avaliacao": "conta uma coisa que aprendeu?",
    "recursos": [
-    "Roteiro: roda de conversa com as perguntas \"Como foi criar?\" e \"O que quero aprender no próximo ano?\".",
-    "Recursos: papel."
+    "Conversa: \"O que foi mais difícil?\" e \"O que quero aprender no próximo ano?\"."
    ]
   },
   {
    "semana": 40,
-   "titulo": "Encerramento",
+   "titulo": "Canção de despedida",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Composição em grupo",
+   "bimestreTitulo": "Criar e mostrar uma música",
    "objetivo": "fechar o ano com uma canção em roda.",
-   "atividade": "cantiga conhecida, com gestos e instrumentos.",
+   "atividade": "cantar uma canção conhecida, com gestos.",
    "materiais": "nenhum",
    "avaliacao": "registro final do ano.",
    "recursos": [
-    "Música: *Ciranda, cirandinha*, em roda.",
-    "Recursos: nenhum."
+    "Música: uma canção conhecida, com gestos, para dar tchau."
    ]
   }
  ],
@@ -1194,181 +1155,171 @@ const PLANEJAMENTO = {
    "titulo": "Escuta atenta",
    "unidade": "Processos de criação",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "prestar atenção a uma música inteira.",
-   "atividade": "escutar uma peça curta de olhos fechados; cada criança descreve um som que ouviu.",
-   "materiais": "gravação",
-   "avaliacao": "descreve pelo menos um elemento da música?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "prestar atenção numa música do início ao fim.",
+   "atividade": "ouvir uma peça curta de olhos fechados. Depois, cada criança conta um som que ouviu.",
+   "materiais": "gravação de uma peça curta, como *Primavera*, de Vivaldi",
+   "avaliacao": "descreve pelo menos um som?",
    "recursos": [
-    "Música: *Primavera*, de Vivaldi, do *As quatro estações* ([buscar](https://www.youtube.com/results?search_query=Vivaldi+Primavera+para+criancas)).",
-    "Roteiro: escutar de olhos fechados. Cada criança descreve um som que ouviu.",
-    "Recursos: caixa de som."
+    "Música: *Primavera*, de Vivaldi, de *As quatro estações* ([buscar](https://www.youtube.com/results?search_query=Vivaldi+Primavera+para+criancas)).",
+    "Brincadeira: ouvir de olhos fechados e contar um som."
    ]
   },
   {
    "semana": 2,
-   "titulo": "Vocabulário: altura, duração e timbre",
+   "titulo": "Palavras da música",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "usar os termos altura, duração e timbre.",
-   "atividade": "exemplos tocados e perguntas: \"Esse som é agudo? Longo? De qual instrumento?\"",
-   "materiais": "instrumentos",
-   "avaliacao": "usa os termos corretamente?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "usar as palavras altura, duração e timbre.",
+   "atividade": "o professor toca exemplos e pergunta: \"esse som é agudo ou grave? Longo ou curto? De qual instrumento?\".",
+   "materiais": "instrumentos ou gravações",
+   "avaliacao": "usa as palavras certas nas respostas?",
    "recursos": [
-    "Roteiro: exemplos tocados pelo professor e perguntas: \"Esse som é agudo? Longo? De qual instrumento?\".",
-    "Recursos: instrumentos ou gravações."
+    "Conversa: o professor toca exemplos e pergunta se o som é agudo ou grave, longo ou curto, e de qual instrumento."
    ]
   },
   {
    "semana": 3,
-   "titulo": "Vocabulário: intensidade, pulso e andamento",
+   "titulo": "Mais palavras da música",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "usar os termos intensidade, pulso e andamento.",
-   "atividade": "exemplos com andamento lento e rápido; intensidade forte e fraca.",
-   "materiais": "gravações",
-   "avaliacao": "diferencia andamento e intensidade?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "usar as palavras intensidade, pulso e andamento.",
+   "atividade": "comparar uma música devagar e outra rápida; uma forte e outra fraca.",
+   "materiais": "gravações contrastantes",
+   "avaliacao": "diferencia andamento de intensidade?",
    "recursos": [
-    "Roteiro: exemplos com andamento lento e rápido, e com intensidade forte e fraca.",
-    "Recursos: gravações contrastantes da mesma música."
+    "Escuta: uma música devagar e outra rápida; uma forte e outra fraca."
    ]
   },
   {
    "semana": 4,
-   "titulo": "Cantiga com vocabulário",
+   "titulo": "Cantiga com as palavras",
    "unidade": "Contextos e práticas",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "aplicar o vocabulário numa cantiga.",
-   "atividade": "cantar uma cantiga e identificar cada elemento nela.",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "aplicar as palavras numa cantiga conhecida.",
+   "atividade": "cantar *Ciranda, cirandinha* e identificar o pulso, o andamento e a intensidade.",
    "materiais": "letra",
-   "avaliacao": "identifica pelo menos três elementos?",
+   "avaliacao": "identifica pelo menos dois elementos?",
    "recursos": [
     "Música: *Ciranda, cirandinha* ([buscar](https://www.youtube.com/results?search_query=Ciranda+cirandinha+cantiga+de+roda)).",
-    "Roteiro: cantar e identificar, na canção, pulso, altura, duração e intensidade.",
-    "Recursos: letra."
+    "Conversa: identificar pulso, andamento e intensidade."
    ]
   },
   {
    "semana": 5,
-   "titulo": "Instrumentos de orquestra",
+   "titulo": "As famílias de instrumentos",
    "unidade": "Materialidades",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "conhecer famílias de instrumentos.",
-   "atividade": "apresentação das famílias (cordas, sopros, percussão) com exemplos.",
-   "materiais": "vídeos ou instrumentos",
-   "avaliacao": "nomeia as famílias?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "conhecer as famílias de instrumentos.",
+   "atividade": "apresentar cordas, sopros e percussão com exemplos sonoros. Vídeo de apoio: [instrumentos da orquestra para crianças](https://www.youtube.com/results?search_query=instrumentos+da+orquestra+para+criancas).",
+   "materiais": "vídeo ou instrumentos",
+   "avaliacao": "nomeia as três famílias?",
    "recursos": [
-    "Roteiro: apresentar as famílias (cordas, sopros e percussão) com exemplos sonoros. Vídeo de apresentação: busque \"instrumentos da orquestra para crianças\" no [YouTube](https://www.youtube.com/results?search_query=instrumentos+da+orquestra+para+criancas).",
-    "Recursos: vídeo ou instrumentos."
+    "Vídeo: [instrumentos da orquestra para crianças](https://www.youtube.com/results?search_query=instrumentos+da+orquestra+para+criancas)."
    ]
   },
   {
    "semana": 6,
-   "titulo": "Escutar instrumentos",
+   "titulo": "Adivinhe o instrumento",
    "unidade": "Materialidades",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "reconhecer instrumentos pela escuta.",
-   "atividade": "jogo de adivinhação com gravações de instrumentos.",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "reconhecer instrumentos pelo som.",
+   "atividade": "jogo de adivinhação com gravações de instrumentos. A criança diz a família do instrumento.",
    "materiais": "gravações",
    "avaliacao": "identifica pelo menos quatro instrumentos?",
    "recursos": [
-    "Roteiro: jogo de adivinhação com gravações de instrumentos. A turma diz a família de cada um.",
-    "Recursos: gravações."
+    "Brincadeira: gravações de instrumentos. A criança diz a família de cada um."
    ]
   },
   {
    "semana": 7,
-   "titulo": "Ritmo em compasso binário",
+   "titulo": "Marchas e valsas",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "perceber e tocar compasso binário.",
-   "atividade": "marcha em 2 tempos (forte-fraco); tocar o padrão com instrumentos.",
-   "materiais": "instrumentos",
-   "avaliacao": "marca o tempo forte?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "perceber a música em 2 e em 3 tempos.",
+   "atividade": "marchar em 2 tempos e valsar em 3 tempos, ao som de exemplos.",
+   "materiais": "gravações de marcha e valsa",
+   "avaliacao": "diferencia os dois compassos?",
    "recursos": [
-    "Roteiro: marcha em dois tempos (forte-fraco). Tocar o padrão com instrumentos.",
-    "Recursos: instrumentos."
+    "Músicas: [marcha infantil](https://www.youtube.com/results?search_query=marcha+infantil+para+criancas) e [valsa infantil](https://www.youtube.com/results?search_query=valsa+infantil+para+criancas).",
+    "Brincadeira: marchar em 2 tempos e valsar em 3."
    ]
   },
   {
    "semana": 8,
-   "titulo": "Ritmo em compasso ternário",
+   "titulo": "Batidas de 2 e de 3",
    "unidade": "Elementos da linguagem",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "perceber e tocar compasso ternário.",
-   "atividade": "marcha em 3 tempos (forte-fraco-fraco); comparar com o binário.",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "tocar padrões de 2 e de 3 tempos com instrumentos.",
+   "atividade": "tocar um padrão de 2 tempos e outro de 3, comparando com o colega.",
    "materiais": "instrumentos",
-   "avaliacao": "diferencia binário e ternário?",
+   "avaliacao": "mantém o padrão sem perder o tempo?",
    "recursos": [
-    "Roteiro: marcha em três tempos (forte-fraco-fraco). Comparar com o binário da semana 7.",
-    "Recursos: instrumentos e uma valsa ([buscar](https://www.youtube.com/results?search_query=valsa+para+criancas+3+tempos))."
+    "Material: instrumentos.",
+    "Brincadeira: tocar um padrão de 2 tempos e outro de 3."
    ]
   },
   {
    "semana": 9,
-   "titulo": "Canto em duas vozes",
+   "titulo": "Canto em pergunta e resposta",
    "unidade": "Contextos e práticas",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "cantar em duas vozes simples.",
-   "atividade": "dividir a turma; uma parte canta a melodia, a outra canta um ostinato.",
-   "materiais": "letra com as duas partes",
-   "avaliacao": "mantém a própria parte?",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "cantar em dois grupos, alternando as partes.",
+   "atividade": "um grupo canta uma frase e o outro responde com outra. Depois, troca os papéis.",
+   "materiais": "letra com as partes",
+   "avaliacao": "entra na hora certa?",
    "recursos": [
-    "Música: *Terezinha de Jesus* ([buscar](https://www.youtube.com/results?search_query=Terezinha+de+Jesus+cantiga)): uma parte canta a melodia e outra canta um ostinato (padrão repetido).",
-    "Recursos: letra com as duas partes."
+    "Música: *Terezinha de Jesus* ([buscar](https://www.youtube.com/results?search_query=Terezinha+de+Jesus+cantiga)). Um grupo canta uma frase e o outro responde."
    ]
   },
   {
    "semana": 10,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 1,
-   "bimestreTitulo": "Escuta e vocabulário musical",
-   "objetivo": "apresentar o canto em duas vozes.",
-   "atividade": "apresentação por grupos.",
+   "bimestreTitulo": "Escutar e falar de música",
+   "objetivo": "mostrar o canto em pergunta e resposta.",
+   "atividade": "apresentação dos grupos para outra turma.",
    "materiais": "letra",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: apresentação do canto em duas vozes.",
-    "Recursos: letra."
+    "Brincadeira: os grupos apresentam o canto em pergunta e resposta."
    ]
   },
   {
    "semana": 11,
-   "titulo": "Pauta e linhas",
+   "titulo": "A pauta",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "conhecer a pauta de cinco linhas.",
-   "atividade": "desenhar a pauta; localizar notas por posição nas linhas e espaços.",
-   "materiais": "papel, lápis",
-   "avaliacao": "identifica linhas e espaços?",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "conhecer as cinco linhas da pauta.",
+   "atividade": "desenhar a pauta com cinco linhas e colocar bolinhas nas linhas e nos espaços.",
+   "materiais": "papel e lápis",
+   "avaliacao": "diferencia linha de espaço?",
    "recursos": [
-    "Roteiro: desenhar a pauta de cinco linhas e localizar notas nas linhas e nos espaços.",
-    "Recursos: papel pautado (ou impresso) e lápis."
+    "Material: papel e lápis. Desenhar as cinco linhas."
    ]
   },
   {
    "semana": 12,
-   "titulo": "Clave de sol",
+   "titulo": "A clave de sol",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "reconhecer a clave de sol e as primeiras notas.",
-   "atividade": "ler notas de uma escala na pauta; cantar a escala.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "reconhecer a clave de sol e algumas notas.",
+   "atividade": "ler e cantar uma escala curta com a mão apontando as notas. Apoio: [Musescore](https://musescore.com/) tem partituras para ler.",
    "materiais": "pauta impressa",
    "avaliacao": "lê pelo menos três notas?",
    "recursos": [
-    "Roteiro: ler e cantar uma escala na pauta.",
-    "Recursos: pauta impressa. Material de apoio: [Musescore](https://musescore.com/) tem partituras gratuitas para ler e tocar."
+    "Material: pauta impressa. Apoio: [Musescore](https://musescore.com/) tem partituras para ler."
    ]
   },
   {
@@ -1376,14 +1327,13 @@ const PLANEJAMENTO = {
    "titulo": "Figuras de duração",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "reconhecer semínima, mínima e colcheia.",
-   "atividade": "bater as figuras com palmas; associar cada figura a um símbolo.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "reconhecer figuras de duração.",
+   "atividade": "associar as figuras (semínima, mínima e colcheia) a palmas de tempos diferentes.",
    "materiais": "cartões com as figuras",
-   "avaliacao": "associa símbolo e duração?",
+   "avaliacao": "associa cada figura ao som certo?",
    "recursos": [
-    "Roteiro: bater semínima, mínima e colcheia com palmas. Associar cada figura ao símbolo.",
-    "Recursos: cartões com as figuras."
+    "Material: cartões com semínima, mínima e colcheia."
    ]
   },
   {
@@ -1391,29 +1341,27 @@ const PLANEJAMENTO = {
    "titulo": "Ler um ritmo",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "ler e executar um ritmo escrito.",
-   "atividade": "a turma lê um trecho de quatro compassos e toca.",
-   "materiais": "trecho impresso, instrumentos",
-   "avaliacao": "executa o ritmo escrito?",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "ler e tocar um ritmo escrito.",
+   "atividade": "a turma lê um trecho de quatro compassos com a mão marcando e toca.",
+   "materiais": "trecho impresso e instrumentos",
+   "avaliacao": "toca o ritmo escrito?",
    "recursos": [
-    "Roteiro: ler um trecho de quatro compassos e tocá-lo.",
-    "Recursos: trecho impresso e instrumentos."
+    "Material: trecho impresso de quatro compassos e instrumentos."
    ]
   },
   {
    "semana": 15,
-   "titulo": "Compasso",
+   "titulo": "O compasso",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "compreender a divisão do compasso.",
-   "atividade": "marcar compassos num trecho escrito; tocar com a contagem.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "entender o compasso como grupo de tempos.",
+   "atividade": "marcar os compassos num trecho escrito e contar em voz alta.",
    "materiais": "trecho impresso",
-   "avaliacao": "marca os compassos corretamente?",
+   "avaliacao": "marca os compassos certos?",
    "recursos": [
-    "Roteiro: marcar os compassos num trecho escrito e tocar com contagem.",
-    "Recursos: trecho impresso."
+    "Material: trecho impresso. Marcar os compassos e contar em voz alta."
    ]
   },
   {
@@ -1421,92 +1369,83 @@ const PLANEJAMENTO = {
    "titulo": "Escrever um ritmo",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "escrever um ritmo simples na notação.",
-   "atividade": "cada criança escreve um ritmo de 4 compassos; trocar com um colega e tocar.",
-   "materiais": "papel pautado, instrumentos",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "escrever um ritmo simples.",
+   "atividade": "cada criança escreve um ritmo de quatro compassos e um colega toca.",
+   "materiais": "papel pautado e instrumentos",
    "avaliacao": "o colega consegue tocar o que foi escrito?",
    "recursos": [
-    "Roteiro: cada criança escreve um ritmo de quatro compassos e um colega toca.",
-    "Jogo de apoio: [instrumentos.html](../../jogos/instrumentos.html) (para a memória dos instrumentos, em outra semana).",
-    "Recursos: papel pautado e instrumentos."
+    "Material: papel pautado e instrumentos."
    ]
   },
   {
    "semana": 17,
-   "titulo": "Notas na flauta ou no teclado",
+   "titulo": "Flauta: primeiras notas",
    "unidade": "Materialidades",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "relacionar notas escritas e sons no instrumento.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "tocar notas simples na flauta.",
    "atividade": "tocar uma melodia curta lida na pauta.",
-   "materiais": "flautas ou teclado",
-   "avaliacao": "toca a melodia com as notas corretas?",
+   "materiais": "flautas doces",
+   "avaliacao": "toca a melodia com as notas certas?",
    "recursos": [
-    "Roteiro: tocar uma melodia curta lida na pauta.",
-    "Recursos: flautas doces ou teclado."
+    "Material: flautas doces e uma melodia curta na pauta."
    ]
   },
   {
    "semana": 18,
-   "titulo": "Melodia escrita e cantada",
+   "titulo": "Cantar o que está escrito",
    "unidade": "Notação e registro musical",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "cantar a melodia lida.",
-   "atividade": "ler e cantar uma melodia com a pauta.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "cantar uma melodia lida.",
+   "atividade": "ler e cantar uma melodia curta com a pauta.",
    "materiais": "pauta impressa",
-   "avaliacao": "canta as notas na altura correta?",
+   "avaliacao": "canta as notas na altura certa?",
    "recursos": [
-    "Roteiro: ler e cantar uma melodia com a pauta.",
-    "Recursos: pauta impressa."
+    "Material: pauta impressa."
    ]
   },
   {
    "semana": 19,
-   "titulo": "Canção com notação",
+   "titulo": "Cantiga com partitura",
    "unidade": "Contextos e práticas",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "aplicar a notação numa canção.",
-   "atividade": "a turma lê e canta uma canção escrita na pauta.",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "cantar uma canção lida na pauta.",
+   "atividade": "a turma lê e canta *Ciranda, cirandinha* numa partitura simples.",
    "materiais": "partitura simples",
-   "avaliacao": "mantém o ritmo da canção?",
+   "avaliacao": "segue o ritmo escrito?",
    "recursos": [
-    "Música: *Ciranda, cirandinha* em partitura simples.",
-    "Roteiro: a turma lê e canta a canção.",
-    "Recursos: partitura."
+    "Música: *Ciranda, cirandinha* em partitura simples."
    ]
   },
   {
    "semana": 20,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 2,
-   "bimestreTitulo": "Notação convencional básica",
-   "objetivo": "apresentar uma leitura musical.",
-   "atividade": "apresentação de um trecho lido e tocado.",
-   "materiais": "partitura, instrumentos",
+   "bimestreTitulo": "Ler e escrever sons com desenhos e pauta",
+   "objetivo": "mostrar a leitura de um trecho.",
+   "atividade": "cada grupo lê e toca um trecho para a turma.",
+   "materiais": "partitura e instrumentos",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: apresentação de um trecho lido e tocado.",
-    "Recursos: partitura e instrumentos."
+    "Brincadeira: cada grupo lê e toca um trecho."
    ]
   },
   {
    "semana": 21,
-   "titulo": "Música e tempo: a música antiga",
+   "titulo": "Música de outra época",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer a música de épocas diferentes.",
-   "atividade": "escutar um trecho de música antiga (barroco ou renascentista) e comparar com uma música atual.",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "perceber que a música muda com o tempo.",
+   "atividade": "ouvir um trecho do *Minueto em Sol maior*, atribuído a Bach, e uma música atual. A turma diz uma diferença.",
    "materiais": "gravações",
-   "avaliacao": "identifica diferenças entre as épocas?",
+   "avaliacao": "diferencia as duas músicas?",
    "recursos": [
-    "Música: *Minueto em Sol maior*, de Bach (atribuído a Petzold), e uma música atual para comparar ([buscar](https://www.youtube.com/results?search_query=Minueto+em+Sol+maior+Bach+criancas)).",
-    "Roteiro: identificar as diferenças entre as épocas.",
-    "Recursos: gravações."
+    "Música: *Minueto em Sol maior*, atribuído a Bach ([buscar](https://www.youtube.com/results?search_query=Minueto+em+Sol+maior+Bach+criancas)), e uma música atual para comparar."
    ]
   },
   {
@@ -1514,15 +1453,13 @@ const PLANEJAMENTO = {
    "titulo": "Música popular brasileira",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer um gênero popular brasileiro.",
-   "atividade": "escutar uma canção da MPB infantil; discutir letra e instrumentos.",
-   "materiais": "gravação, letra",
-   "avaliacao": "relaciona a letra ao contexto?",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "conhecer uma canção brasileira e sua letra.",
+   "atividade": "ouvir *Aquarela* e conversar sobre o que a letra conta.",
+   "materiais": "letra e gravação",
+   "avaliacao": "fala sobre a história da letra?",
    "recursos": [
-    "Música: *Aquarela*, de Toquinho e Vinicius ([buscar](https://www.youtube.com/results?search_query=Aquarela+Toquinho+infantil)).",
-    "Roteiro: discutir a letra e os instrumentos.",
-    "Recursos: letra e gravação."
+    "Música: *Aquarela*, de Toquinho e Vinicius ([buscar](https://www.youtube.com/results?search_query=Aquarela+Toquinho+infantil))."
    ]
   },
   {
@@ -1530,14 +1467,13 @@ const PLANEJAMENTO = {
    "titulo": "Música indígena",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer a música indígena brasileira.",
-   "atividade": "escutar canto indígena e discutir o contexto de uso.",
-   "materiais": "gravação",
-   "avaliacao": "respeita o contexto da música?",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "conhecer um canto indígena e o contexto em que ele é cantado.",
+   "atividade": "ouvir um canto indígena de acervo de pesquisa e conversar sobre quando e por que ele é cantado.",
+   "materiais": "gravação de acervo",
+   "avaliacao": "fala sobre o contexto?",
    "recursos": [
-    "Roteiro: escutar um canto indígena e discutir o contexto de uso. Busque no [YouTube](https://www.youtube.com/results?search_query=canto+indigena+brasileiro+gravacao) uma gravação de pesquisa ou acervo.",
-    "Recursos: gravação."
+    "Escuta: canto indígena de acervo de pesquisa ([buscar](https://www.youtube.com/results?search_query=canto+indigena+brasileiro+gravacao))."
    ]
   },
   {
@@ -1545,59 +1481,55 @@ const PLANEJAMENTO = {
    "titulo": "Música afro-brasileira",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer a música afro-brasileira.",
-   "atividade": "escutar um coco ou um maracatu; tocar o ritmo com instrumentos.",
-   "materiais": "gravação, instrumentos",
-   "avaliacao": "toca o ritmo com o pulso correto?",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "conhecer o coco e seu ritmo.",
+   "atividade": "ouvir um coco de roda e bater o ritmo com as mãos. Busca: [coco de roda](https://www.youtube.com/results?search_query=coco+de+roda+infantil).",
+   "materiais": "gravação e instrumentos",
+   "avaliacao": "bate o ritmo do coco?",
    "recursos": [
-    "Roteiro: escutar um coco ou um maracatu e tocar o ritmo com instrumentos. Busque \"coco de roda\" no [YouTube](https://www.youtube.com/results?search_query=coco+de+roda+infantil).",
-    "Recursos: gravação e instrumentos."
+    "Música: coco de roda ([buscar](https://www.youtube.com/results?search_query=coco+de+roda+infantil))."
    ]
   },
   {
    "semana": 25,
-   "titulo": "Música de outros países",
+   "titulo": "Canção de outro país",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer músicas de outras culturas.",
-   "atividade": "escutar uma canção de outro país; comparar com as brasileiras.",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "conhecer uma canção de outro país.",
+   "atividade": "ouvir uma canção de outro país e comparar com uma brasileira: o ritmo, os instrumentos e a língua.",
    "materiais": "gravação",
    "avaliacao": "compara pelo menos dois aspectos?",
    "recursos": [
-    "Roteiro: escutar uma canção de outro país e comparar com as brasileiras.",
-    "Recursos: gravação. Sugestão: [Canto Tuva, da Mongólia](https://www.youtube.com/results?search_query=Tuva+throat+singing+kids) (busque a versão indicada para crianças)."
+    "Escuta: uma canção de outro país, para comparar com uma brasileira."
    ]
   },
   {
    "semana": 26,
-   "titulo": "Linha do tempo musical",
+   "titulo": "Linha do tempo",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "organizar gêneros em ordem histórica.",
-   "atividade": "a turma monta uma linha do tempo com os gêneros estudados.",
-   "materiais": "papel grande, cartões",
-   "avaliacao": "organiza a sequência com lógica?",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "colocar músicas em ordem de época.",
+   "atividade": "a turma monta uma linha do tempo com as músicas ouvidas.",
+   "materiais": "papel grande e cartões",
+   "avaliacao": "coloca a sequência com lógica?",
    "recursos": [
-    "Roteiro: a turma organiza os gêneros estudados em ordem histórica.",
-    "Recursos: papel grande e cartões."
+    "Material: papel grande e cartões com as músicas ouvidas."
    ]
   },
   {
    "semana": 27,
-   "titulo": "Ritmo em gêneros diferentes",
+   "titulo": "Ritmos diferentes",
    "unidade": "Elementos da linguagem",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "comparar ritmos de gêneros diferentes.",
-   "atividade": "tocar o padrão de dois gêneros e identificar a diferença.",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "comparar o ritmo de dois gêneros.",
+   "atividade": "tocar o padrão de um samba e de um forró e dizer a diferença.",
    "materiais": "instrumentos",
-   "avaliacao": "diferencia os ritmos?",
+   "avaliacao": "diferencia os dois ritmos?",
    "recursos": [
-    "Roteiro: tocar o padrão de dois gêneros e identificar a diferença.",
-    "Recursos: instrumentos."
+    "Brincadeira: tocar o padrão do samba e do forró e dizer a diferença."
    ]
   },
   {
@@ -1605,59 +1537,55 @@ const PLANEJAMENTO = {
    "titulo": "Instrumentos do mundo",
    "unidade": "Materialidades",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "conhecer instrumentos de outras culturas.",
-   "atividade": "apresentação com fotos ou vídeos (ex.: kalimba, djembê); tocar se houver disponível.",
-   "materiais": "vídeos, instrumentos",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "conhecer instrumentos de outros países.",
+   "atividade": "ver vídeos de kalimba e djembê. Tocar se houver disponível. Busca: [kalimba e djembê](https://www.youtube.com/results?search_query=kalimba+djembe+para+criancas).",
+   "materiais": "vídeos ou instrumentos",
    "avaliacao": "nomeia pelo menos dois instrumentos?",
    "recursos": [
-    "Roteiro: apresentar kalimba e djembê com vídeos ([buscar](https://www.youtube.com/results?search_query=kalimba+djembe+para+criancas)). Tocar se houver disponível.",
-    "Recursos: vídeos ou instrumentos."
+    "Vídeos: [kalimba e djembê](https://www.youtube.com/results?search_query=kalimba+djembe+para+criancas)."
    ]
   },
   {
    "semana": 29,
-   "titulo": "Análise de uma canção",
+   "titulo": "Analisando uma canção",
    "unidade": "Contextos e práticas",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "analisar uma canção em seus elementos.",
-   "atividade": "escutar, identificar forma, instrumentos e letra; discutir o sentido.",
-   "materiais": "gravação, letra",
-   "avaliacao": "descreve forma e instrumentos?",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "observar uma canção com calma.",
+   "atividade": "ouvir uma canção e responder: tem refrão? Quais instrumentos aparecem? O que a letra conta?",
+   "materiais": "gravação e letra",
+   "avaliacao": "responde pelo menos duas perguntas?",
    "recursos": [
-    "Roteiro: identificar forma, instrumentos e letra de uma canção, e discutir o sentido.",
-    "Recursos: gravação e letra."
+    "Escuta: uma canção com perguntas sobre refrão, instrumentos e letra."
    ]
   },
   {
    "semana": 30,
-   "titulo": "Revisão e apresentação do bimestre",
+   "titulo": "Apresentação do bimestre",
    "unidade": "Processos de criação",
    "bimestre": 3,
-   "bimestreTitulo": "Gêneros e contextos históricos",
-   "objetivo": "apresentar o que foi estudado sobre gêneros.",
-   "atividade": "cada grupo apresenta um gênero: escuta, ritmo e curiosidade.",
-   "materiais": "gravações, instrumentos",
+   "bimestreTitulo": "Músicas de outros tempos e lugares",
+   "objetivo": "apresentar um gênero estudado.",
+   "atividade": "cada grupo apresenta um gênero com um trecho tocado e uma curiosidade.",
+   "materiais": "gravações e instrumentos",
    "avaliacao": "registro do bimestre.",
    "recursos": [
-    "Roteiro: cada grupo apresenta um gênero com escuta, ritmo e uma curiosidade.",
-    "Recursos: gravações e instrumentos."
+    "Brincadeira: cada grupo apresenta um gênero com um trecho tocado."
    ]
   },
   {
    "semana": 31,
-   "titulo": "O que é um arranjo",
+   "titulo": "O que é uma versão nova",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "compreender arranjo como nova versão de uma música.",
-   "atividade": "escutar a mesma canção em duas versões; identificar o que mudou.",
-   "materiais": "gravações",
-   "avaliacao": "identifica as mudanças?",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "perceber que a mesma música pode soar de outro jeito.",
+   "atividade": "ouvir a mesma canção em duas versões e apontar o que mudou (instrumentos, andamento, voz).",
+   "materiais": "duas gravações",
+   "avaliacao": "aponta pelo menos uma mudança?",
    "recursos": [
-    "Roteiro: escutar a mesma canção em duas versões e identificar o que mudou. Busque \"Ciranda cirandinha versão\" no [YouTube](https://www.youtube.com/results?search_query=Ciranda+cirandinha+versao+diferente).",
-    "Recursos: gravações."
+    "Escuta: a mesma canção em duas versões."
    ]
   },
   {
@@ -1665,44 +1593,41 @@ const PLANEJAMENTO = {
    "titulo": "Escolher a canção",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "escolher uma canção para arranjar.",
-   "atividade": "a turma vota numa canção do repertório estudado.",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "escolher uma canção para mudar.",
+   "atividade": "a turma vota numa canção do repertório do ano.",
    "materiais": "lista de canções",
-   "avaliacao": "participa da escolha?",
+   "avaliacao": "participa da votação?",
    "recursos": [
-    "Roteiro: a turma vota numa canção do repertório estudado.",
-    "Recursos: lista de canções."
+    "Brincadeira: a turma vota numa canção do ano."
    ]
   },
   {
    "semana": 33,
-   "titulo": "Planejar o arranjo",
+   "titulo": "Dividindo as partes",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "definir partes e instrumentos do arranjo.",
-   "atividade": "cada grupo decide quem canta, quem toca e quais partes entram.",
-   "materiais": "papel, lápis",
-   "avaliacao": "o plano tem partes definidas?",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "decidir o que cada grupo vai tocar.",
+   "atividade": "cada grupo decide quem canta, quem toca e em que momento cada um entra.",
+   "materiais": "papel e lápis",
+   "avaliacao": "o grupo tem uma divisão clara?",
    "recursos": [
-    "Roteiro: cada grupo decide quem canta, quem toca e quais partes entram.",
-    "Recursos: papel e lápis."
+    "Material: papel e lápis."
    ]
   },
   {
    "semana": 34,
-   "titulo": "Registrar o arranjo",
+   "titulo": "Registrar a versão",
    "unidade": "Notação e registro musical",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "registrar o arranjo com notação ou símbolos próprios.",
-   "atividade": "cada grupo escreve as partes; pode usar a notação aprendida ou símbolos próprios.",
-   "materiais": "papel pautado",
-   "avaliacao": "o registro permite tocar o arranjo?",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "registrar a nova versão.",
+   "atividade": "escrever as partes com desenhos ou com a notação aprendida.",
+   "materiais": "papel pautado ou papel comum",
+   "avaliacao": "outra pessoa consegue tocar a partir do registro?",
    "recursos": [
-    "Roteiro: cada grupo escreve as partes com a notação aprendida ou símbolos próprios.",
-    "Recursos: papel pautado."
+    "Material: papel pautado ou papel comum."
    ]
   },
   {
@@ -1710,29 +1635,27 @@ const PLANEJAMENTO = {
    "titulo": "Ensaio por grupos",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "ensaiar as partes do arranjo.",
-   "atividade": "ensaio por grupos com o professor orientando.",
-   "materiais": "instrumentos, registros",
-   "avaliacao": "cada grupo toca a própria parte?",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "ensaiar a própria parte.",
+   "atividade": "cada grupo ensaia com o professor orientando.",
+   "materiais": "instrumentos e registros",
+   "avaliacao": "toca a própria parte?",
    "recursos": [
-    "Roteiro: ensaio por grupos com orientação do professor.",
-    "Recursos: instrumentos e registros."
+    "Material: instrumentos e registros."
    ]
   },
   {
    "semana": 36,
-   "titulo": "Juntar as partes",
+   "titulo": "Juntando as partes",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "tocar o arranjo completo.",
-   "atividade": "a turma toca o arranjo de todos os grupos juntos.",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "tocar a versão completa.",
+   "atividade": "a turma toca a versão com todas as partes.",
    "materiais": "instrumentos",
-   "avaliacao": "as partes entram no tempo certo?",
+   "avaliacao": "as partes entram na hora certa?",
    "recursos": [
-    "Roteiro: a turma toca o arranjo completo.",
-    "Recursos: instrumentos."
+    "Brincadeira: a turma toca a versão com todas as partes."
    ]
   },
   {
@@ -1740,14 +1663,13 @@ const PLANEJAMENTO = {
    "titulo": "Ensaio geral",
    "unidade": "Processos de criação",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "revisar a apresentação final.",
-   "atividade": "ensaio completo com todos os arranjos.",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "preparar a apresentação final.",
+   "atividade": "ensaiar todas as versões, na ordem da apresentação.",
    "materiais": "espaço de apresentação",
    "avaliacao": "a apresentação está pronta?",
    "recursos": [
-    "Roteiro: ensaio completo com todos os arranjos.",
-    "Recursos: espaço de apresentação."
+    "Brincadeira: ensaiar todas as versões, na ordem da apresentação."
    ]
   },
   {
@@ -1755,44 +1677,41 @@ const PLANEJAMENTO = {
    "titulo": "Apresentação final",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "apresentar os arranjos para a escola ou as famílias.",
-   "atividade": "apresentação dos arranjos.",
-   "materiais": "instrumentos, cenário",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "apresentar as versões para a escola ou as famílias.",
+   "atividade": "apresentação das versões dos grupos.",
+   "materiais": "instrumentos e cenário simples",
    "avaliacao": "participa com segurança?",
    "recursos": [
-    "Roteiro: apresentação dos arranjos para a escola ou as famílias.",
-    "Recursos: instrumentos e cenário."
+    "Brincadeira: apresentar as versões para a escola ou as famílias."
    ]
   },
   {
    "semana": 39,
-   "titulo": "Roda de avaliação",
+   "titulo": "Roda de conversa",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "refletir sobre a aprendizagem do ano.",
-   "atividade": "roda de conversa: \"O que aprendi sobre música? O que mais gostei de fazer?\"",
-   "materiais": "papel",
-   "avaliacao": "reconhece as próprias conquistas?",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "conversar sobre o ano.",
+   "atividade": "roda com as perguntas \"O que aprendi sobre música?\" e \"O que mais gostei de fazer?\".",
+   "materiais": "nenhum",
+   "avaliacao": "conta uma coisa que aprendeu?",
    "recursos": [
-    "Roteiro: roda de conversa com as perguntas \"O que aprendi sobre música?\" e \"O que mais gostei de fazer?\".",
-    "Recursos: papel."
+    "Conversa: \"O que aprendi sobre música?\" e \"O que mais gostei de fazer?\"."
    ]
   },
   {
    "semana": 40,
-   "titulo": "Encerramento",
+   "titulo": "Canção de despedida",
    "unidade": "Contextos e práticas",
    "bimestre": 4,
-   "bimestreTitulo": "Arranjo e apresentação final",
-   "objetivo": "fechar o ano com uma canção de despedida.",
-   "atividade": "canção em roda, com instrumentos.",
+   "bimestreTitulo": "Criar e apresentar uma versão nova",
+   "objetivo": "fechar o ano com uma canção em roda.",
+   "atividade": "cantar uma canção conhecida, com instrumentos.",
    "materiais": "nenhum",
    "avaliacao": "registro final do ano.",
    "recursos": [
-    "Música: *Ode à alegria*, de Beethoven, em versão simples para cantar ([buscar](https://www.youtube.com/results?search_query=Ode+a+alegria+Beethoven+criancas)).",
-    "Recursos: nenhum."
+    "Música: uma canção conhecida, com instrumentos."
    ]
   }
  ]
