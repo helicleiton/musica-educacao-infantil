@@ -1,211 +1,211 @@
 # 2º ano — Planejamento semanal de Música — 2027
 
-Carga: 1 aula de 50 min por semana. Unidades da BNCC indicadas entre colchetes.
+Carga: 1 aula de 50 min por semana. Para crianças de 7 anos, as atividades são curtas, com movimento e brincadeira. Cada aula trabalha um só conceito. As unidades da BNCC aparecem entre colchetes.
 
-## 1º bimestre — Pulso, cantigas e corpo
+## 1º bimestre — Brincando com o corpo e a voz
 
-**Sem. 1 — Apresentação e o corpo sonoro** [Processos de criação]
-Objetivo: explorar sons do corpo (palmas, estalos, batidas) e combiná-los em sequências.
-Atividade: jogo do eco com padrões de 2 a 4 sons, depois criação de um padrão pela criança.
-Materiais: nenhum. Avaliação: participa do jogo? propõe um som próprio?
+**Sem. 1 — Os sons do nosso corpo** [Processos de criação]
+Objetivo: descobrir sons que o corpo faz (palma, estalo, pé).
+Atividade: o professor faz um som e a turma repete. Depois, cada criança faz um som para os colegas copiarem.
+Materiais: nenhum. Avaliação: participa e faz um som próprio?
 
-**Sem. 2 — Pulso com o corpo** [Elementos da linguagem]
-Objetivo: sentir e manter o pulso de uma música.
-Atividade: caminhar no pulso de uma canção; bater o pulso nas coxas; trocar para "pulso lento" e "pulso rápido".
-Materiais: caixa de som. Avaliação: mantém o pulso sem se perder?
+**Sem. 2 — Batendo o pezinho** [Elementos da linguagem]
+Objetivo: sentir a batida (pulso) da música.
+Atividade: andar no ritmo de uma música, batendo o pé a cada batida. Mudar: andar devagar, depois rápido.
+Materiais: caixa de som. Avaliação: consegue andar no ritmo da música?
 
-**Sem. 3 — Cantigas de roda** [Contextos e práticas]
-Objetivo: cantar uma cantiga de roda com gestos.
-Atividade: aprender *Pezinho* (ou outra cantiga do repertório da turma) por frases, com eco do professor.
-Materiais: letra em cartaz. Avaliação: canta com gestos?
+**Sem. 3 — Cantiga: Pezinho** [Contextos e práticas]
+Objetivo: cantar uma cantiga com gestos.
+Atividade: aprender a cantiga aos poucos, repetindo cada frase depois do professor. Fazer os gestos juntos.
+Materiais: letra em cartaz com figuras. Avaliação: canta e faz os gestos?
 
-**Sem. 4 — Parlendas e ritmo da fala** [Elementos da linguagem]
-Objetivo: perceber o ritmo das sílabas.
-Atividade: recitar parlendas e bater uma palma por sílaba; depois, criar uma parlenda própria com o mesmo ritmo.
-Materiais: lista de parlendas. Avaliação: acompanha o ritmo da fala?
+**Sem. 4 — Bater nas sílabas** [Elementos da linguagem]
+Objetivo: perceber as sílabas de uma frase com palmas.
+Atividade: falar a parlenda *Hoje é domingo* e bater uma palma para cada sílaba.
+Materiais: parlenda escrita em cartaz. Avaliação: bate as palmas no ritmo da fala?
 
-**Sem. 5 — Instrumentos de percussão** [Materialidades]
-Objetivo: explorar sons de instrumentos de percussão e objetos.
-Atividade: cada criança escolhe um objeto (caixa, chocalho, bloco de madeira) e descobre formas diferentes de tocar.
-Materiais: chocalhos, pandeiros, blocos, copos e colheres. Avaliação: explora mais de um jeito de tocar?
+**Sem. 5 — Conhecendo os instrumentos** [Materialidades]
+Objetivo: explorar instrumentos simples e descobrir como tocar cada um.
+Atividade: cada criança pega um instrumento (chocalho, tambor, triângulo) e descobre um jeito de tocar.
+Materiais: chocalhos, tambores, triângulos (ou latas e colheres). Avaliação: toca de pelo menos um jeito?
 
-**Sem. 6 — Pulso em grupo** [Processos de criação]
-Objetivo: manter o pulso junto com o grupo.
-Atividade: roda de instrumentos; o professor marca o pulso com as mãos e a turma acompanha; depois, um aluno lidera.
-Materiais: instrumentos da semana anterior. Avaliação: toca junto sem acelerar?
+**Sem. 6 — Siga o mestre** [Processos de criação]
+Objetivo: tocar junto com o grupo, seguindo o gesto.
+Atividade: o professor é o "mestre" e faz gestos. A turma toca rápido ou devagar conforme o gesto. Depois, um aluno vira o mestre.
+Materiais: instrumentos da semana 5. Avaliação: segue o gesto do mestre?
 
-**Sem. 7 — Cantar e silenciar** [Elementos da linguagem]
-Objetivo: perceber pausas e silêncios na música.
-Atividade: cantiga com pausas marcadas por gesto de "parar"; criar um jogo de silêncio e som.
-Materiais: cantiga da sem. 3. Avaliação: respeita as pausas?
+**Sem. 7 — Cantiga: Atirei o pau no gato** [Contextos e práticas]
+Objetivo: cantar uma cantiga conhecida e brincar com ela.
+Atividade: cantar com gestos. Na segunda vez, trocar uma palavra por um som de palma.
+Materiais: letra em cartaz. Avaliação: acompanha a cantiga com gestos?
 
-**Sem. 8 — Cantiga com instrumentos** [Contextos e práticas]
-Objetivo: acompanhar uma cantiga com instrumentos.
-Atividade: cantar a cantiga e tocar o pulso; dividir a turma em "cantores" e "instrumentistas", com troca.
-Materiais: instrumentos. Avaliação: consegue cantar e tocar ao mesmo tempo?
+**Sem. 8 — Forte e fraco** [Elementos da linguagem]
+Objetivo: perceber som forte e som fraco.
+Atividade: brincar de trovão (forte, com as mãos batendo) e de chuvinha (fraco, com os dedos). O professor mostra com as mãos.
+Materiais: nenhum. Avaliação: diferencia o som forte do fraco?
 
-**Sem. 9 — Ritmos do cotidiano** [Materialidades]
-Objetivo: reconhecer ritmos presentes no dia a dia.
-Atividade: escutar sons da escola (porta, passos, sino); reproduzir o ritmo de um som com o corpo.
-Materiais: gravador de celular (opcional). Avaliação: identifica e reproduz um ritmo do cotidiano?
+**Sem. 9 — Os sons da escola** [Materialidades]
+Objetivo: prestar atenção aos sons ao redor.
+Atividade: fazer silêncio por um minuto e contar os sons que ouviram. Depois, imitar um deles com a voz ou com o corpo.
+Materiais: nenhum. Avaliação: consegue dizer pelo menos dois sons?
 
-**Sem. 10 — Revisão e apresentação do bimestre** [Processos de criação]
-Objetivo: reunir as cantigas e padrões do bimestre.
-Atividade: pequena apresentação para outra turma ou para a própria turma: cantiga com gestos e um padrão criado pela turma.
-Materiais: instrumentos e letra da cantiga. Avaliação: registro do bimestre (ver modelo na visão geral).
-
-## 2º bimestre — Altura e timbre
-
-**Sem. 11 — Agudo e grave com o corpo** [Elementos da linguagem]
-Objetivo: diferenciar sons agudos e graves.
-Atividade: mãos altas para o agudo, agachar para o grave; depois, jogo com o professor tocando sons.
-Materiais: flauta doce ou sons gravados. Avaliação: identifica agudo e grave?
-
-**Sem. 12 — Jogo "Agudo ou grave?"** [Elementos da linguagem]
-Objetivo: ouvir, decidir e justificar.
-Atividade: usar o jogo `jogos/alto_baixo.html` em projeção, em duplas; cada criança explica a escolha.
-Materiais: projetor. Avaliação: consegue explicar por que um som é agudo ou grave?
-
-**Sem. 13 — Cantar em alturas diferentes** [Elementos da linguagem]
-Objetivo: cantar a mesma cantiga em alturas diferentes.
-Atividade: cantar "bem agudinho" e "bem grave"; depois, subir e descer a melodia com a mão.
-Materiais: cantiga conhecida. Avaliação: muda a altura da voz quando solicitado?
-
-**Sem. 14 — Timbre: quem está tocando?** [Materialidades]
-Objetivo: reconhecer diferentes timbres.
-Atividade: de olhos fechados, adivinhar o instrumento tocado (com exemplos reais ou gravados).
-Materiais: instrumentos ou gravações. Avaliação: reconhece pelo menos três timbres?
-
-**Sem. 15 — Instrumentos de sopro e corda** [Materialidades]
-Objetivo: conhecer instrumentos de sopro e de corda.
-Atividade: apresentação com visita ou vídeo curto; cada criança experimenta um instrumento disponível.
-Materiais: instrumentos ou vídeos. Avaliação: nomeia pelo menos um instrumento de cada família?
-
-**Sem. 16 — Instrumentos de percussão do Brasil** [Contextos e práticas]
-Objetivo: conhecer instrumentos brasileiros de percussão.
-Atividade: apresentar triângulo, reco-reco, pandeiro, agogô; cada um toca um ritmo simples.
-Materiais: instrumentos ou fotos. Avaliação: identifica o nome e o som de pelo menos dois?
-
-**Sem. 17 — Construir um instrumento** [Materialidades]
-Objetivo: perceber como o material afeta o som.
-Atividade: montar um instrumento simples (caixa com grãos, garrafa com água, elástico numa caixa) e comparar os sons.
-Materiais: caixas, grãos, garrafas, elásticos. Avaliação: relaciona o material ao som?
-
-**Sem. 18 — Sons alto e baixo com instrumentos** [Processos de criação]
-Objetivo: criar uma pequena sequência com sons agudos e graves.
-Atividade: em grupos, combinar 4 sons (2 agudos e 2 graves) e apresentar.
-Materiais: instrumentos da turma. Avaliação: a sequência tem contraste de altura?
-
-**Sem. 19 — Escuta de canção popular** [Contextos e práticas]
-Objetivo: ouvir uma canção brasileira e identificar partes com timbres diferentes.
-Atividade: escutar a canção; apontar os instrumentos que ouvem; cantar o refrão.
-Materiais: gravação da canção. Avaliação: identifica pelo menos dois instrumentos?
-
-**Sem. 20 — Revisão e apresentação do bimestre** [Processos de criação]
-Objetivo: reunir os sons agudos, graves e timbres trabalhados.
-Atividade: apresentação em grupos com a sequência criada na sem. 18.
+**Sem. 10 — Festa de apresentação** [Processos de criação]
+Objetivo: mostrar o que aprendeu para outra turma ou para a família.
+Atividade: cantar a cantiga da semana 7 e tocar um instrumento junto com a turma.
 Materiais: instrumentos. Avaliação: registro do bimestre.
 
-## 3º bimestre — Sons do ambiente e paisagens sonoras
+## 2º bimestre — Sons altos, baixos, curtos e longos
 
-**Sem. 21 — Escutar o ambiente** [Materialidades]
-Objetivo: prestar atenção aos sons ao redor.
-Atividade: silêncio de um minuto; cada criança registra os sons ouvidos (oralmente ou com desenho).
-Materiais: papel e lápis. Avaliação: consegue identificar pelo menos três sons?
+**Sem. 11 — Som alto e som baixo** [Elementos da linguagem]
+Objetivo: diferenciar som alto (fino) e som baixo (grosso).
+Atividade: mãos altas para o som alto e mãos na cintura para o som baixo. O professor toca ou canta e a turma responde.
+Materiais: flauta ou voz do professor. Avaliação: mostra o alto e o baixo com o corpo?
 
-**Sem. 22 — Mapa sonoro da escola** [Contextos e práticas]
-Objetivo: mapear sons de diferentes espaços da escola.
-Atividade: passear pela escola e marcar sons num mapa desenhado pela turma.
-Materiais: papel grande, lápis. Avaliação: relaciona sons a espaços?
+**Sem. 12 — Jogo: Agudo ou grave?** [Elementos da linguagem]
+Objetivo: escutar e escolher se o som é alto (agudo) ou baixo (grave).
+Atividade: jogar em duplas no projetor, com o jogo do projeto. Cada criança diz a resposta antes de apertar o botão.
+Materiais: projetor ou tablet, jogo *alto_baixo*. Avaliação: acerta pelo menos metade das vezes?
 
-**Sem. 23 — Sons da natureza** [Materialidades]
-Objetivo: reconhecer sons naturais e reproduzi-los.
-Atividade: imitar chuva, vento, pássaros com o corpo e objetos; em roda, criar uma "paisagem sonora".
-Materiais: objetos sonoros. Avaliação: participa com ideias próprias?
+**Sem. 13 — Cantiga: Sapo cururu** [Contextos e práticas]
+Objetivo: cantar mais devagar e mais rápido.
+Atividade: cantar a cantiga devagar, como um sapo que anda. Depois, rápido, como um sapo que pula.
+Materiais: letra em cartaz. Avaliação: muda o ritmo da canção quando pedido?
 
-**Sem. 24 — Paisagem sonora coletiva** [Processos de criação]
-Objetivo: criar uma paisagem sonora em grupo.
-Atividade: cada grupo escolhe um lugar (floresta, cidade, feira) e combina 3 sons para representá-lo.
-Materiais: objetos sonoros. Avaliação: os sons representam o lugar escolhido?
+**Sem. 14 — Quem está tocando?** [Materialidades]
+Objetivo: reconhecer instrumentos pelo som.
+Atividade: a criança fecha os olhos e adivinha qual instrumento o professor tocou.
+Materiais: tambor, chocalho, triângulo, pandeiro. Avaliação: reconhece pelo menos dois instrumentos?
 
-**Sem. 25 — Apresentar a paisagem** [Contextos e práticas]
-Objetivo: apresentar e explicar a paisagem criada.
-Atividade: cada grupo apresenta; a turma adivinha o lugar.
-Materiais: nenhum. Avaliação: explica suas escolhas sonoras?
+**Sem. 15 — Ouvir instrumentos de sopro e de corda** [Materialidades]
+Objetivo: conhecer a flauta e o violão pelo som.
+Atividade: ouvir um vídeo curto ou ver o instrumento. A turma conta o que percebeu: é de assoprar ou de dedilhar?
+Materiais: vídeo ou instrumento. Avaliação: diz se o som é de sopro ou de corda?
 
-**Sem. 26 — Cantigas de outras regiões** [Contextos e práticas]
-Objetivo: conhecer cantigas de regiões brasileiras diferentes.
-Atividade: ouvir e cantar uma cantiga nordestina e uma do Sul; comparar ritmos.
-Materiais: gravações. Avaliação: identifica diferenças de ritmo?
+**Sem. 16 — Pandeiro, triângulo e reco-reco** [Materialidades]
+Objetivo: tocar três instrumentos brasileiros simples.
+Atividade: cada grupo toca um instrumento com o mesmo ritmo, marcando a batida junto com o professor.
+Materiais: pandeiro, triângulo, reco-reco (ou fotos). Avaliação: toca no ritmo do grupo?
 
-**Sem. 27 — Ritmo do forró e do samba** [Elementos da linguagem]
-Objetivo: perceber o pulso de gêneros brasileiros.
-Atividade: bater o pulso de um forró e de um samba; comparar com as palmas.
-Materiais: gravações. Avaliação: diferencia os dois pulsos?
+**Sem. 17 — Chocalho de garrafa** [Materialidades]
+Objetivo: fazer um instrumento simples e perceber que o material muda o som.
+Atividade: colocar um pouco de arroz ou feijão numa garrafa PET fechada. Sacudir e comparar com outra garrafa com mais ou menos grãos.
+Materiais: garrafas PET, arroz ou feijão, fita adesiva. Avaliação: consegue fazer um som diferente com o chocalho?
 
-**Sem. 28 — Dançar a música regional** [Contextos e práticas]
-Objetivo: movimentar-se com música brasileira regional.
-Atividade: roda de dança simples com um gênero da semana anterior.
-Materiais: espaço livre. Avaliação: acompanha o pulso com o corpo?
+**Sem. 18 — Som longo e som curto** [Elementos da linguagem]
+Objetivo: diferenciar som longo (que demora) e som curto (rápido).
+Atividade: o professor mostra cartões com um traço longo ou uma bolinha. A turma canta "aaaa" no longo e bate "tá" no curto.
+Materiais: cartões com traço e bolinha. Avaliação: faz o som longo e o curto?
 
-**Sem. 29 — Canções de animais** [Contextos e práticas]
-Objetivo: cantar canções sobre animais e relacionar o som ao animal.
-Atividade: cantar uma cantiga sobre animais (ex.: *Sapo cururu*) e escolher um animal para imitar com a voz e o movimento.
-Materiais: letra e gravação. Avaliação: imita um animal com voz e movimento?
+**Sem. 19 — Cantiga: Peixe vivo** [Processos de criação]
+Objetivo: cantar a canção acompanhada por instrumentos.
+Atividade: cantar a canção. Cada grupo toca o chocalho ou o tambor no ritmo.
+Materiais: letra e instrumentos. Avaliação: consegue cantar e tocar ao mesmo tempo?
 
-**Sem. 30 — Revisão e apresentação do bimestre** [Processos de criação]
-Objetivo: reunir paisagens sonoras e músicas regionais.
-Atividade: apresentação de uma paisagem sonora e uma cantiga regional.
-Materiais: instrumentos e objetos. Avaliação: registro do bimestre.
+**Sem. 20 — Festa dos sons** [Processos de criação]
+Objetivo: mostrar os sons aprendidos no bimestre.
+Atividade: cada grupo mostra um som alto, um baixo, um longo e um curto. A turma adivinha.
+Materiais: instrumentos. Avaliação: registro do bimestre.
 
-## 4º bimestre — Criação e apresentação
+## 3º bimestre — Sons da natureza e da cidade
 
-**Sem. 31 — Ideias musicais** [Processos de criação]
-Objetivo: criar uma pequena ideia musical individual.
-Atividade: cada criança cria um padrão de 4 sons com voz ou instrumento.
-Materiais: instrumentos. Avaliação: cria e repete o próprio padrão?
+**Sem. 21 — Um minuto de silêncio** [Materialidades]
+Objetivo: ouvir com atenção o ambiente.
+Atividade: fechar os olhos por um minuto. Depois, cada criança diz um som que ouviu.
+Materiais: nenhum. Avaliação: consegue dizer pelo menos um som?
 
-**Sem. 32 — Registro gráfico simples** [Notação e registro musical]
-Objetivo: registrar um padrão com símbolos próprios.
-Atividade: desenhar os sons do padrão (bolinha para som curto, traço para som longo).
-Materiais: papel, lápis. Avaliação: o desenho representa o padrão?
+**Sem. 22 — Passeio sonoro** [Materialidades]
+Objetivo: reconhecer sons de lugares diferentes da escola.
+Atividade: passear pela escola com a turma. Ao chegar em cada lugar, ouvir e contar os sons.
+Materiais: nenhum. Avaliação: relaciona um som a um lugar?
 
-**Sem. 33 — Reproduzir o registro** [Notação e registro musical]
-Objetivo: tocar a partir do registro de outra criança.
-Atividade: trocar os desenhos entre colegas e tocar o que está registrado.
-Materiais: desenhos das crianças, instrumentos. Avaliação: toca a partir do registro?
+**Sem. 23 — Sons da natureza** [Processos de criação]
+Objetivo: imitar sons da natureza com o corpo e a voz.
+Atividade: a turma imita chuva (dedos batendo nas pernas), vento (voz assobiando) e passarinho (voz aguda).
+Materiais: nenhum. Avaliação: imita pelo menos dois sons da natureza?
 
-**Sem. 34 — Estrutura: começo, meio e fim** [Elementos da linguagem]
-Objetivo: organizar ideias em uma pequena forma.
-Atividade: juntar três padrões em sequência com começo, meio e fim.
-Materiais: instrumentos. Avaliação: a sequência tem início e fim claros?
+**Sem. 24 — Historinha com sons** [Processos de criação]
+Objetivo: contar uma história usando sons.
+Atividade: o professor conta uma história curta e a turma acrescenta sons (ex.: passos, chuva, porta).
+Materiais: uma história curta. Avaliação: participa com um som na história?
 
-**Sem. 35 — Ensaio de canção final** [Contextos e práticas]
-Objetivo: preparar uma canção para apresentação.
-Atividade: ensaio com gestos e instrumentos; escolher a canção com a turma.
-Materiais: letra, instrumentos. Avaliação: sabe a letra e os gestos?
+**Sem. 25 — Cantiga de roda** [Contextos e práticas]
+Objetivo: cantar e brincar em roda.
+Atividade: cantar *Ciranda, cirandinha* e girar em roda, trocando de lugar a cada verso.
+Materiais: espaço livre. Avaliação: participa da roda?
 
-**Sem. 36 — Composição coletiva** [Processos de criação]
-Objetivo: criar uma composição com toda a turma.
-Atividade: cada grupo traz um padrão; a turma junta em uma só música.
-Materiais: instrumentos. Avaliação: participa da composição final?
+**Sem. 26 — Batida do samba** [Elementos da linguagem]
+Objetivo: sentir a batida de um samba.
+Atividade: ouvir um samba e bater a batida com as mãos nas pernas.
+Materiais: gravação de samba. Avaliação: acompanha a batida?
+
+**Sem. 27 — Batida do forró** [Elementos da linguagem]
+Objetivo: sentir a batida de um forró e comparar com o samba.
+Atividade: ouvir um forró e dançar no ritmo, com passos simples. Depois, comparar com o samba.
+Materiais: gravação de forró. Avaliação: diz uma diferença entre o samba e o forró?
+
+**Sem. 28 — Bichos que cantam** [Contextos e práticas]
+Objetivo: imitar animais com a voz.
+Atividade: a turma escolhe um bicho e faz o som dele (sapo, galo, cachorro). Os colegas adivinham.
+Materiais: nenhum. Avaliação: imita um animal com a voz?
+
+**Sem. 29 — Cantiga dos animais** [Contextos e práticas]
+Objetivo: cantar uma cantiga de animais.
+Atividade: cantar *Sapo cururu* e fazer o gesto de cada animal.
+Materiais: letra com figuras. Avaliação: canta e faz o gesto?
+
+**Sem. 30 — Festa da natureza** [Processos de criação]
+Objetivo: mostrar os sons trabalhados no bimestre.
+Atividade: cada grupo escolhe um som da natureza ou da cidade e apresenta para a turma.
+Materiais: objetos sonoros. Avaliação: registro do bimestre.
+
+## 4º bimestre — Criar e mostrar
+
+**Sem. 31 — Eu invento um som** [Processos de criação]
+Objetivo: criar um som próprio.
+Atividade: cada criança inventa um som com a voz ou com um objeto. A turma repete.
+Materiais: objetos da sala. Avaliação: cria um som e a turma repete?
+
+**Sem. 32 — Desenhando sons** [Notação e registro musical]
+Objetivo: registrar um som com desenho.
+Atividade: desenhar um som com bolinhas (sons curtos) e traços (sons longos).
+Materiais: papel e lápis de cor. Avaliação: o desenho mostra o som?
+
+**Sem. 33 — Tocando o desenho do colega** [Notação e registro musical]
+Objetivo: tocar um som a partir de um desenho.
+Atividade: trocar os desenhos com um colega e tocar o que está desenhado.
+Materiais: desenhos e instrumentos. Avaliação: toca o desenho do colega?
+
+**Sem. 34 — Minha pequena música** [Elementos da linguagem]
+Objetivo: juntar sons em uma pequena música com começo, meio e fim.
+Atividade: juntar três sons: um para começar, um no meio e um para terminar.
+Materiais: instrumentos. Avaliação: a música tem começo e fim?
+
+**Sem. 35 — Ensaio da cantiga final** [Contextos e práticas]
+Objetivo: aprender a cantiga da apresentação.
+Atividade: a turma escolhe uma cantiga conhecida. Ensaiar com gestos e um instrumento.
+Materiais: letra com figuras. Avaliação: sabe a letra e os gestos?
+
+**Sem. 36 — Música de todos** [Processos de criação]
+Objetivo: criar uma música com a turma toda.
+Atividade: cada grupo traz um som. A turma junta todos em uma música, com o professor como guia.
+Materiais: instrumentos. Avaliação: participa com um som?
 
 **Sem. 37 — Ensaio geral** [Processos de criação]
 Objetivo: revisar a apresentação.
-Atividade: ensaio completo com os padrões e a canção.
-Materiais: espaço para apresentação. Avaliação: a turma consegue apresentar do início ao fim?
+Atividade: ensaiar tudo do início ao fim, com calma.
+Materiais: espaço para apresentação. Avaliação: a turma consegue apresentar do começo ao fim?
 
 **Sem. 38 — Apresentação para a escola** [Contextos e práticas]
-Objetivo: apresentar o trabalho do ano para outra turma ou para as famílias.
-Atividade: apresentação de canção, padrões e composição coletiva.
-Materiais: instrumentos, cenário simples. Avaliação: participa com segurança?
+Objetivo: apresentar o trabalho do ano.
+Atividade: cantar a cantiga final e tocar a música de todos.
+Materiais: instrumentos. Avaliação: participa com segurança?
 
-**Sem. 39 — Roda de avaliação** [Contextos e práticas]
-Objetivo: refletir sobre o que foi aprendido.
-Atividade: roda de conversa: "O que mais gostei? O que eu quero aprender?"
-Materiais: papel. Avaliação: reconhece as próprias conquistas?
+**Sem. 39 — Roda de conversa** [Contextos e práticas]
+Objetivo: conversar sobre o que aprendeu.
+Atividade: roda com duas perguntas: "O que você mais gostou?" e "Qual som você quer aprender?".
+Materiais: nenhum. Avaliação: lembra e conta uma coisa que aprendeu?
 
-**Sem. 40 — Encerramento** [Contextos e práticas]
-Objetivo: fechar o ano com uma canção de despedida.
-Atividade: cantiga conhecida em roda, com gestos.
+**Sem. 40 — Canção de despedida** [Contextos e práticas]
+Objetivo: fechar o ano com uma canção em roda.
+Atividade: cantar uma canção conhecida, com gestos, e dar tchau.
 Materiais: nenhum. Avaliação: registro final do ano.

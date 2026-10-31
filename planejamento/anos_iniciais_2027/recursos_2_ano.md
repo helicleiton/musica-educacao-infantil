@@ -1,199 +1,158 @@
 # 2º ano — Recursos de cada aula (2027)
 
-Complementa [2_ano.md](2_ano.md). Para cada semana: músicas sugeridas, onde ouvir, jogos ou materiais, e um roteiro de 50 minutos.
+Complementa [2_ano.md](2_ano.md). Para crianças de 7 anos: músicas de roda e cantigas conhecidas, instrumentos simples e brincadeiras.
 
-**Sobre os links:** os links abrem uma busca no YouTube com o nome da música. Escolha a versão que combina com a turma e confira o conteúdo antes de exibir. Para músicas do repertório popular, há muitas versões; prefira as que tenham letra clara e andamento adequado para crianças de 7 anos.
+**Sobre os links:** os links abrem uma busca no YouTube. Escolha uma versão com voz de criança ou de adulto cantando devagar, e confira o conteúdo antes de exibir.
 
-**Roteiro padrão de 50 min:** acolhida com canção de entrada (5 min), atividade central (30 min), canto ou escuta de fechamento (10 min), avaliação rápida anotada (5 min).
+**Roteiro padrão de 50 min:** acolhida com uma cantiga (5 min), atividade principal (30 min), cantiga de despedida (10 min), registro rápido (5 min).
 
 ---
 
-## 1º bimestre — Pulso, cantigas e corpo
+## 1º bimestre — Brincando com o corpo e a voz
 
-**Sem. 1 — Apresentação e o corpo sonoro**
-- Canção de entrada: *Bom dia a todos* (cantiga de acolhida; busque versões infantis).
-- Ouvir: não há gravação obrigatória; use o próprio corpo.
-- Roteiro: jogo do eco com padrões de palmas, estalos e batidas. Depois, cada criança cria um padrão que a turma repete.
-- Recursos: nenhum.
+**Sem. 1 — Os sons do nosso corpo**
+- Brincadeira: o professor faz um som (palma, estalo, pé) e a turma repete.
+- Material: nenhum.
 
-**Sem. 2 — Pulso com o corpo**
-- Música: *Pezinho* ([buscar no YouTube](https://www.youtube.com/results?search_query=Pezinho+cantiga+de+roda)).
-- Roteiro: andar no pulso da música; trocar para "pulso lento" e "pulso rápido" marcando com batidas nas coxas.
-- Recursos: caixa de som.
+**Sem. 2 — Batendo o pezinho**
+- Música: *Pezinho* ([buscar](https://www.youtube.com/results?search_query=Pezinho+cantiga+de+roda)).
+- Brincadeira: andar no ritmo batendo o pé, devagar e rápido.
 
-**Sem. 3 — Cantigas de roda**
-- Música: *Ciranda, cirandinha* ([buscar](https://www.youtube.com/results?search_query=Ciranda+cirandinha+cantiga+de+roda)).
-- Roteiro: aprender a canção por frases, com eco do professor, e depois cantar em roda com gestos.
-- Recursos: letra impressa em cartaz grande.
+**Sem. 3 — Cantiga: Pezinho**
+- Música: *Pezinho* (mesma da semana 2).
+- Brincadeira: aprender a cantiga por frases, com gestos.
 
-**Sem. 4 — Parlendas e ritmo da fala**
-- Parlendas: *Hoje é domingo, pé de cachimbo*; *Uni, duni, tê* ([buscar](https://www.youtube.com/results?search_query=parlendas+infantis+uni+duni+te)).
-- Roteiro: recitar a parlenda batendo uma palma por sílaba. Depois, cada criança cria uma parlenda com o mesmo ritmo.
-- Recursos: nenhum.
+**Sem. 4 — Bater nas sílabas**
+- Parlenda: *Hoje é domingo, pé de cachimbo* ([buscar](https://www.youtube.com/results?search_query=Hoje+e+domingo+pe+de+cachimbo+parlenda)).
+- Brincadeira: uma palma para cada sílaba.
 
-**Sem. 5 — Instrumentos de percussão**
-- Roteiro: explorar chocalhos, pandeiros, blocos de madeira e copos com colheres. Cada criança descobre pelo menos dois jeitos de tocar.
-- Recursos: instrumentos da escola ou objetos caseiros (latas, potes com grãos).
+**Sem. 5 — Conhecendo os instrumentos**
+- Instrumentos: chocalho, tambor, triângulo (ou latas e colheres).
+- Brincadeira: cada criança descobre um jeito de tocar.
 
-**Sem. 6 — Pulso em grupo**
+**Sem. 6 — Siga o mestre**
+- Brincadeira: o mestre (professor ou aluno) faz gestos. A turma toca rápido ou devagar conforme o gesto.
+
+**Sem. 7 — Cantiga: Atirei o pau no gato**
 - Música: *Atirei o pau no gato* ([buscar](https://www.youtube.com/results?search_query=Atirei+o+pau+no+gato+cantiga)).
-- Roteiro: roda de instrumentos; o professor marca o pulso e depois um aluno passa a liderar.
-- Recursos: os instrumentos da semana 5.
+- Brincadeira: trocar uma palavra por uma palma na segunda vez.
 
-**Sem. 7 — Cantar e silenciar**
-- Música: *Pezinho* (mesma da sem. 2).
-- Roteiro: marcar as pausas da música com um gesto de "parar". A turma aprende a respeitar o silêncio.
-- Recursos: nenhum.
+**Sem. 8 — Forte e fraco**
+- Brincadeira: "trovão" (bater forte nas pernas) e "chuvinha" (bater de leve com os dedos).
 
-**Sem. 8 — Cantiga com instrumentos**
-- Música: *Ciranda, cirandinha*.
-- Roteiro: dividir a turma em "cantores" e "instrumentistas", trocando de papel no meio da aula.
-- Recursos: instrumentos.
+**Sem. 9 — Os sons da escola**
+- Brincadeira: um minuto de silêncio. Depois, cada criança imita um som que ouviu.
 
-**Sem. 9 — Ritmos do cotidiano**
-- Roteiro: escutar sons da escola (sino, porta, passos). Cada grupo transforma um desses sons em padrão rítmico.
-- Recursos: celular para gravar sons (opcional).
-
-**Sem. 10 — Revisão e apresentação do bimestre**
-- Roteiro: apresentação para outra turma: uma cantiga com gestos e um padrão criado pela turma.
-- Recursos: instrumentos e cartazes com a letra.
+**Sem. 10 — Festa de apresentação**
+- Música: *Atirei o pau no gato* com instrumentos.
 
 ---
 
-## 2º bimestre — Altura e timbre
+## 2º bimestre — Sons altos, baixos, curtos e longos
 
-**Sem. 11 — Agudo e grave com o corpo**
+**Sem. 11 — Som alto e som baixo**
+- Brincadeira: mãos altas para o som fino (alto) e mãos na cintura para o som grosso (baixo).
+
+**Sem. 12 — Jogo: Agudo ou grave?**
+- Jogo do projeto: [alto_baixo.html](../../jogos/alto_baixo.html). Em duplas, a criança diz a resposta antes de clicar.
+
+**Sem. 13 — Cantiga: Sapo cururu**
 - Música: *Sapo cururu* ([buscar](https://www.youtube.com/results?search_query=Sapo+cururu+cantiga)).
-- Roteiro: mãos altas para o agudo e agachar para o grave. Depois, o professor toca sons graves e agudos num piano ou flauta, e a turma responde com o corpo.
-- Recursos: flauta doce ou gravações de sons agudos e graves.
+- Brincadeira: cantar devagar, como sapo que anda, e depois rápido, como sapo que pula.
 
-**Sem. 12 — Jogo "Agudo ou grave?"**
-- Jogo: [alto_baixo.html](../../jogos/alto_baixo.html), do projeto.
-- Roteiro: em duplas, cada criança escuta e escolhe. Depois, explica por que o som é agudo ou grave.
-- Recursos: projetor ou tablet.
+**Sem. 14 — Quem está tocando?**
+- Brincadeira: de olhos fechados, adivinhar o instrumento tocado pelo professor.
+- Material: tambor, chocalho, triângulo, pandeiro.
 
-**Sem. 13 — Cantar em alturas diferentes**
-- Música: *Terezinha de Jesus* ([buscar](https://www.youtube.com/results?search_query=Terezinha+de+Jesus+cantiga)).
-- Roteiro: cantar a mesma canção "bem agudinho" e "bem grave". Depois, subir e descer a melodia com a mão.
-- Recursos: nenhum.
+**Sem. 15 — Ouvir flauta e violão**
+- Vídeo: [instrumentos para crianças](https://www.youtube.com/results?search_query=instrumentos+musicais+para+criancas+flauta+violao).
+- Conversa: o som é de assoprar ou de dedilhar?
 
-**Sem. 14 — Timbre: quem está tocando?**
-- Roteiro: de olhos fechados, a turma adivinha o instrumento tocado pelo professor ou por um vídeo.
-- Recursos: instrumentos reais ou gravações de piano, violão, tambor e flauta.
+**Sem. 16 — Pandeiro, triângulo e reco-reco**
+- Brincadeira: cada grupo toca um instrumento, seguindo a batida do professor.
+- Material: pandeiro, triângulo, reco-reco (ou fotos).
 
-**Sem. 15 — Instrumentos de sopro e corda**
-- Roteiro: apresentar um instrumento de sopro (flauta, clarinete) e um de corda (violão). Cada criança experimenta um deles.
-- Recursos: instrumentos ou vídeos de apresentação. Procure no YouTube "instrumentos da orquestra para crianças".
+**Sem. 17 — Chocalho de garrafa**
+- Material: garrafa PET, arroz ou feijão, fita adesiva. Os adultos fecham a garrafa com fita, se preciso.
+- Brincadeira: comparar garrafas com mais grãos e com menos.
 
-**Sem. 16 — Instrumentos de percussão do Brasil**
+**Sem. 18 — Som longo e som curto**
+- Brincadeira: cartões com traço longo (cantar "aaaa") e bolinha (bater "tá").
+
+**Sem. 19 — Cantiga: Peixe vivo**
 - Música: *Peixe vivo* ([buscar](https://www.youtube.com/results?search_query=Peixe+vivo+cantiga+popular)).
-- Roteiro: apresentar triângulo, reco-reco, pandeiro e agogô. Cada instrumento toca um ritmo simples sobre a canção.
-- Recursos: pandeiro, triângulo, reco-reco e agogô (ou fotos).
+- Brincadeira: cantar e tocar o chocalho no ritmo.
 
-**Sem. 17 — Construir um instrumento**
-- Roteiro: montar um instrumento simples (caixa com grãos, garrafa com água, elástico numa caixa) e comparar os sons.
-- Recursos: caixas, grãos, garrafas PET, elásticos.
-
-**Sem. 18 — Sons alto e baixo com instrumentos**
-- Roteiro: em grupos, combinar quatro sons (dois agudos e dois graves) e apresentar para a turma.
-- Recursos: instrumentos da turma.
-
-**Sem. 19 — Escuta de canção popular**
-- Música: *A canoa virou* ([buscar](https://www.youtube.com/results?search_query=A+canoa+virou+cantiga)).
-- Roteiro: escutar a canção, apontar os instrumentos e cantar o refrão.
-- Recursos: gravação.
-
-**Sem. 20 — Revisão e apresentação do bimestre**
-- Roteiro: apresentação em grupos com a sequência da semana 18.
-- Recursos: instrumentos.
+**Sem. 20 — Festa dos sons**
+- Brincadeira: cada grupo mostra um som alto, um baixo, um longo e um curto. A turma adivinha.
 
 ---
 
-## 3º bimestre — Sons do ambiente e paisagens sonoras
+## 3º bimestre — Sons da natureza e da cidade
 
-**Sem. 21 — Escutar o ambiente**
-- Roteiro: um minuto de silêncio. Depois, cada criança desenha ou diz os sons que ouviu.
-- Recursos: papel e lápis.
+**Sem. 21 — Um minuto de silêncio**
+- Brincadeira: fechar os olhos por um minuto e contar os sons.
 
-**Sem. 22 — Mapa sonoro da escola**
-- Roteiro: passear pela escola e marcar os sons num mapa desenhado pela turma.
-- Recursos: papel grande e lápis de cor.
+**Sem. 22 — Passeio sonoro**
+- Brincadeira: caminhar pela escola e parar em cada lugar para ouvir.
 
 **Sem. 23 — Sons da natureza**
-- Roteiro: imitar chuva, vento e pássaros com o corpo e objetos. Juntar tudo numa paisagem sonora de roda.
-- Recursos: objetos sonoros (papel amassado, grãos, colheres).
+- Brincadeira: imitar chuva (bater nas pernas), vento (assobiar) e passarinho (voz aguda).
 
-**Sem. 24 — Paisagem sonora coletiva**
-- Roteiro: cada grupo escolhe um lugar (floresta, cidade, feira) e combina três sons para representá-lo.
-- Recursos: objetos sonoros.
+**Sem. 24 — Historinha com sons**
+- Brincadeira: o professor conta uma história curta e a turma faz os sons (passos, chuva, porta).
 
-**Sem. 25 — Apresentar a paisagem**
-- Roteiro: cada grupo apresenta, e a turma tenta adivinhar o lugar.
-- Recursos: nenhum.
+**Sem. 25 — Cantiga de roda: Ciranda, cirandinha**
+- Música: *Ciranda, cirandinha* ([buscar](https://www.youtube.com/results?search_query=Ciranda+cirandinha+cantiga+de+roda)).
+- Brincadeira: cantar e girar em roda.
 
-**Sem. 26 — Cantigas de outras regiões**
-- Músicas: uma cantiga nordestina e uma do Sul. Busque "cantigas de roda nordeste" e "cantigas gaúchas" no [YouTube](https://www.youtube.com/results?search_query=cantigas+infantis+regionais+brasileiras).
-- Roteiro: comparar o ritmo das duas canções.
-- Recursos: gravações.
+**Sem. 26 — Batida do samba**
+- Brincadeira: ouvir um samba e bater a batida nas pernas.
+- Música: [samba infantil](https://www.youtube.com/results?search_query=samba+infantil+para+criancas).
 
-**Sem. 27 — Ritmo do forró e do samba**
-- Roteiro: bater o pulso de um forró e de um samba e comparar com as palmas.
-- Recursos: gravações de forró e samba instrumental infantil ([buscar](https://www.youtube.com/results?search_query=forro+samba+infantil+ritmo+criancas)).
+**Sem. 27 — Batida do forró**
+- Brincadeira: dançar no ritmo do forró, com passos simples, e comparar com o samba.
+- Música: [forró infantil](https://www.youtube.com/results?search_query=forro+infantil+para+criancas).
 
-**Sem. 28 — Dançar a música regional**
-- Roteiro: roda de dança simples com o gênero da semana anterior.
-- Recursos: espaço livre.
+**Sem. 28 — Bichos que cantam**
+- Brincadeira: a turma escolhe um bicho e faz o som dele. Os colegas adivinham.
 
-**Sem. 29 — Canções de animais**
-- Música: *Sapo cururu* (mesma da sem. 11) e outras cantigas com animais.
-- Roteiro: cantar, escolher um animal e imitá-lo com voz e movimento.
-- Recursos: letra e gravação.
+**Sem. 29 — Cantiga dos animais**
+- Música: *Sapo cururu* (mesma da semana 13), com gestos de cada animal.
 
-**Sem. 30 — Revisão e apresentação do bimestre**
-- Roteiro: apresentação de uma paisagem sonora e de uma cantiga regional.
-- Recursos: instrumentos e objetos.
+**Sem. 30 — Festa da natureza**
+- Brincadeira: cada grupo apresenta um som da natureza ou da cidade.
 
 ---
 
-## 4º bimestre — Criação e apresentação
+## 4º bimestre — Criar e mostrar
 
-**Sem. 31 — Ideias musicais**
-- Roteiro: cada criança cria um padrão de quatro sons com voz ou instrumento, e a turma repete.
-- Recursos: instrumentos.
+**Sem. 31 — Eu invento um som**
+- Brincadeira: cada criança inventa um som com a voz ou com um objeto. A turma repete.
 
-**Sem. 32 — Registro gráfico simples**
-- Roteiro: desenhar os sons do padrão (bolinha para som curto, traço para som longo).
-- Recursos: papel e lápis.
+**Sem. 32 — Desenhando sons**
+- Material: papel e lápis de cor. Bolinhas para sons curtos e traços para sons longos.
 
-**Sem. 33 — Reproduzir o registro**
-- Roteiro: trocar os desenhos entre colegas e tocar o que está registrado.
-- Recursos: desenhos das crianças e instrumentos.
+**Sem. 33 — Tocando o desenho do colega**
+- Brincadeira: trocar desenhos e tocar o que está desenhado.
 
-**Sem. 34 — Começo, meio e fim**
-- Roteiro: juntar três padrões em sequência, com começo, meio e fim.
-- Recursos: instrumentos.
+**Sem. 34 — Minha pequena música**
+- Brincadeira: juntar três sons: um para começar, um no meio e um para terminar.
 
-**Sem. 35 — Ensaio da canção final**
-- Música: escolha com a turma uma das canções já cantadas (ex.: *Ciranda, cirandinha*).
-- Roteiro: ensaio com gestos e instrumentos.
-- Recursos: letra e instrumentos.
+**Sem. 35 — Ensaio da cantiga final**
+- Música: escolher uma cantiga conhecida pela turma, com gestos e instrumento.
 
-**Sem. 36 — Composição coletiva**
-- Roteiro: cada grupo traz um padrão, e a turma junta tudo numa só música.
-- Recursos: instrumentos.
+**Sem. 36 — Música de todos**
+- Brincadeira: cada grupo traz um som. A turma junta tudo, com o professor como guia.
 
 **Sem. 37 — Ensaio geral**
-- Roteiro: ensaio completo com os padrões e a canção.
-- Recursos: espaço de apresentação.
+- Brincadeira: ensaiar tudo do começo ao fim, com calma.
 
 **Sem. 38 — Apresentação para a escola**
-- Roteiro: apresentação da canção, dos padrões e da composição coletiva.
-- Recursos: instrumentos e cenário simples.
+- Música: cantiga final e a música de todos.
 
-**Sem. 39 — Roda de avaliação**
-- Roteiro: roda de conversa com duas perguntas: "O que mais gostei?" e "O que quero aprender no próximo ano?".
-- Recursos: papel.
+**Sem. 39 — Roda de conversa**
+- Conversa: "O que você mais gostou?" e "Qual som você quer aprender?".
 
-**Sem. 40 — Encerramento**
-- Música: *Pezinho* ou *Ciranda, cirandinha*, em roda, com gestos.
-- Recursos: nenhum.
+**Sem. 40 — Canção de despedida**
+- Música: uma canção conhecida, com gestos, para dar tchau.
