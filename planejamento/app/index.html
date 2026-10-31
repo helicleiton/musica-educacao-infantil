@@ -153,7 +153,6 @@
     <div class="controles">
       <input class="busca" id="busca" type="search" placeholder="Buscar por tema, atividade ou material" aria-label="Buscar">
       <div id="filtros" style="display:flex; gap:6px; flex-wrap:wrap"></div>
-      <button class="botao" id="imprimir" type="button">Imprimir</button>
     </div>
 
     <div class="progresso" aria-live="polite">
@@ -334,11 +333,6 @@
     document.getElementById("busca").addEventListener("input", (e) => {
       termo = e.target.value;
       renderLista();
-    });
-
-    document.getElementById("imprimir").addEventListener("click", () => {
-      document.querySelectorAll("details.semana").forEach((d) => (d.open = true));
-      window.print();
     });
 
     renderTudo();
