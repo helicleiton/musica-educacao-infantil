@@ -4,167 +4,76 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Planejamento de Música 2027</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script>
+    tailwind.config = {
+      darkMode: "media",
+      theme: {
+        extend: {
+          fontFamily: { sans: ["Nunito", "system-ui", "sans-serif"] },
+        },
+      },
+    };
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap">
   <style>
-    :root {
-      --fundo: #f6f8fb;
-      --cartao: #ffffff;
-      --texto: #1f2933;
-      --secundario: #5b6670;
-      --destaque: #1d4e89;
-      --destaque-claro: #e8eef6;
-      --borda: #d5dde6;
-      --verde: #2e7d4f;
-    }
-    @media (prefers-color-scheme: dark) {
-      :root:not([data-theme="light"]) {
-        --fundo: #161b22;
-        --cartao: #1f2630;
-        --texto: #e6edf3;
-        --secundario: #9aa7b4;
-        --destaque: #7fb2ef;
-        --destaque-claro: #243244;
-        --borda: #33404f;
-        --verde: #6fcf97;
-      }
-    }
-    :root[data-theme="dark"] {
-      --fundo: #161b22;
-      --cartao: #1f2630;
-      --texto: #e6edf3;
-      --secundario: #9aa7b4;
-      --destaque: #7fb2ef;
-      --destaque-claro: #243244;
-      --borda: #33404f;
-      --verde: #6fcf97;
-    }
-
-    * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
-      background: var(--fundo);
-      color: var(--texto);
-      line-height: 1.45;
-    }
-    main { max-width: 860px; margin: 0 auto; padding: 16px; }
-    h1 { font-size: 1.5rem; margin: 8px 0 4px; color: var(--destaque); }
-    .subtitulo { color: var(--secundario); margin: 0 0 16px; font-size: 0.95rem; }
-
-    .abas { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 12px; }
-    .aba, .filtro, .botao {
-      font: inherit;
-      font-size: 0.95rem;
-      padding: 8px 14px;
-      border-radius: 999px;
-      border: 1px solid var(--borda);
-      background: var(--cartao);
-      color: var(--texto);
-      cursor: pointer;
-    }
-    .aba[aria-pressed="true"], .filtro[aria-pressed="true"] {
-      background: var(--destaque);
-      border-color: var(--destaque);
-      color: #fff;
-    }
-    .controles { display: flex; gap: 8px; flex-wrap: wrap; align-items: center; margin-bottom: 12px; }
-    .busca {
-      flex: 1 1 220px;
-      font: inherit;
-      padding: 9px 12px;
-      border-radius: 10px;
-      border: 1px solid var(--borda);
-      background: var(--cartao);
-      color: var(--texto);
-    }
-
-    .progresso { margin: 4px 0 16px; }
-    .progresso-texto { font-size: 0.9rem; color: var(--secundario); margin-bottom: 4px; }
-    .barra { height: 10px; background: var(--destaque-claro); border-radius: 999px; overflow: hidden; }
-    .barra > span { display: block; height: 100%; background: var(--verde); width: 0; transition: width 0.3s; }
-
-    .bimestre-titulo {
-      font-size: 1.05rem;
-      margin: 22px 0 8px;
-      color: var(--destaque);
-      border-bottom: 1px solid var(--borda);
-      padding-bottom: 4px;
-    }
-
-    .semana {
-      background: var(--cartao);
-      border: 1px solid var(--borda);
-      border-radius: 12px;
-      margin-bottom: 8px;
-    }
-    .semana.concluida { opacity: 0.65; }
-    .semana summary {
-      list-style: none;
-      cursor: pointer;
-      padding: 12px 14px;
-      display: flex;
-      gap: 10px;
-      align-items: flex-start;
-    }
-    .semana summary::-webkit-details-marker { display: none; }
-    .semana summary::before {
-      content: "▸";
-      color: var(--secundario);
-      transition: transform 0.15s;
-      margin-top: 2px;
-    }
-    .semana[open] summary::before { transform: rotate(90deg); }
-    .numero { font-weight: 700; min-width: 58px; color: var(--secundario); }
-    .titulo-semana { font-weight: 600; flex: 1; }
-    .unidade {
-      font-size: 0.78rem;
-      color: var(--destaque);
-      background: var(--destaque-claro);
-      padding: 2px 8px;
-      border-radius: 999px;
-      white-space: nowrap;
-      align-self: center;
-    }
-    .detalhes { padding: 0 14px 14px 72px; font-size: 0.95rem; }
-    .detalhes p { margin: 6px 0; }
-    .rotulo { font-weight: 600; color: var(--secundario); }
-    .marcar { display: flex; align-items: center; gap: 6px; margin-top: 10px; font-size: 0.9rem; cursor: pointer; }
-    .recursos { margin-top: 8px; }
-    .recursos ul { margin: 4px 0 0; padding-left: 18px; }
-    .recursos li { margin: 3px 0; }
-    .recursos a { color: var(--destaque); overflow-wrap: anywhere; }
-
-    .vazio { text-align: center; color: var(--secundario); padding: 32px 0; }
-
-    @media (max-width: 480px) {
-      .detalhes { padding-left: 14px; }
-      .numero { min-width: 0; }
-    }
-    @media print {
-      .controles, .abas, .progresso, .marcar { display: none !important; }
-      .semana { break-inside: avoid; opacity: 1 !important; }
-      .semana:not([open]) .detalhes { display: none; }
-      body { background: #fff; color: #000; }
-    }
+    /* Esconde o marcador nativo do <details> em todos os navegadores. */
+    summary::-webkit-details-marker { display: none; }
+    summary { list-style: none; }
   </style>
 </head>
-<body>
-  <main>
-    <h1>Planejamento de Música 2027</h1>
-    <p class="subtitulo">2º, 3º e 4º ano · 40 semanas · 1 aula de 50 min por semana. Abra uma semana para ver os recursos.</p>
+<body class="min-h-screen bg-gradient-to-b from-indigo-50 via-slate-50 to-slate-50 text-slate-800 antialiased dark:from-slate-950 dark:via-slate-950 dark:to-slate-950 dark:text-slate-100">
+  <main class="mx-auto max-w-4xl px-4 pb-16 pt-8 sm:px-6 sm:pt-10">
 
-    <nav class="abas" id="abas" aria-label="Ano escolar"></nav>
+    <!-- Cabeçalho -->
+    <header class="mb-6">
+      <p class="text-xs font-extrabold uppercase tracking-[0.2em] text-indigo-600 dark:text-indigo-300">Educação musical</p>
+      <h1 class="mt-1 text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl dark:text-white">Planejamento de Música 2027</h1>
+      <div class="mt-4 flex flex-wrap gap-2 text-sm font-semibold">
+        <span class="rounded-full bg-white px-3 py-1 text-slate-700 shadow-sm ring-1 ring-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-800">2º, 3º e 4º ano</span>
+        <span class="rounded-full bg-white px-3 py-1 text-slate-700 shadow-sm ring-1 ring-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-800">40 semanas</span>
+        <span class="rounded-full bg-white px-3 py-1 text-slate-700 shadow-sm ring-1 ring-slate-200 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-800">1 aula de 50 min por semana</span>
+      </div>
+    </header>
 
-    <div class="controles">
-      <input class="busca" id="busca" type="search" placeholder="Buscar por tema, atividade ou material" aria-label="Buscar">
-      <div id="filtros" style="display:flex; gap:6px; flex-wrap:wrap"></div>
-    </div>
+    <!-- Barra de ferramentas -->
+    <section class="mb-6 space-y-4 rounded-xl bg-white p-4 shadow-md ring-1 ring-slate-200 sm:p-5 dark:bg-slate-900 dark:ring-slate-800">
+      <!-- Seletor de ano (segmented control) -->
+      <div role="tablist" aria-label="Ano escolar" id="abas" class="flex w-full rounded-xl bg-slate-100 p-1 dark:bg-slate-800"></div>
 
-    <div class="progresso" aria-live="polite">
-      <div class="progresso-texto" id="progressoTexto"></div>
-      <div class="barra"><span id="progressoBarra"></span></div>
-    </div>
+      <div class="flex flex-col gap-3 md:flex-row md:items-center">
+        <!-- Busca -->
+        <label class="relative block flex-1">
+          <span class="sr-only">Buscar semanas</span>
+          <svg class="pointer-events-none absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 text-slate-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5" stroke-linecap="round"/>
+          </svg>
+          <input id="busca" type="search" placeholder="Buscar por tema, atividade ou material"
+            class="w-full rounded-xl border border-slate-200 bg-slate-50 py-2.5 pl-10 pr-3 text-sm text-slate-900 placeholder:text-slate-400 transition-all duration-200 focus:border-indigo-400 focus:bg-white focus:outline-none focus:ring-4 focus:ring-indigo-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100 dark:focus:ring-indigo-900/50">
+        </label>
+        <!-- Bimestres (chips) -->
+        <div id="filtros" class="flex gap-2 overflow-x-auto pb-1 md:pb-0"></div>
+      </div>
+    </section>
 
-    <div id="lista"></div>
+    <!-- Progresso -->
+    <section class="mb-8 rounded-xl bg-white p-5 shadow-md ring-1 ring-slate-200 sm:p-6 dark:bg-slate-900 dark:ring-slate-800" aria-live="polite">
+      <div class="flex items-end justify-between gap-4">
+        <div>
+          <p class="text-sm font-semibold text-slate-500 dark:text-slate-400" id="progressoAno">Progresso do 2º ano</p>
+          <p class="text-sm text-slate-600 dark:text-slate-300" id="progressoTexto"></p>
+        </div>
+        <p class="text-4xl font-extrabold tabular-nums text-indigo-600 dark:text-indigo-300" id="progressoPct">0%</p>
+      </div>
+      <div class="mt-4 h-3 overflow-hidden rounded-full bg-slate-200 dark:bg-slate-800">
+        <div id="progressoBarra" class="h-full rounded-full bg-gradient-to-r from-indigo-500 via-violet-500 to-emerald-400 transition-all duration-500 ease-out" style="width:0%"></div>
+      </div>
+      <div id="grade" class="mt-4 flex flex-wrap gap-1.5" aria-hidden="true"></div>
+    </section>
+
+    <!-- Lista de semanas -->
+    <div id="lista" class="space-y-6"></div>
   </main>
 
   <script src="dados.js"></script>
@@ -174,6 +83,8 @@
     let anoAtual = ANOS[0];
     let bimestreAtual = 0; // 0 = todos
     let termo = "";
+
+    const ICONES = { Objetivo: "🎯", Atividade: "🎨", Materiais: "📦", Avaliação: "📋" };
 
     function lerConcluidas() {
       try {
@@ -193,26 +104,62 @@
 
     let concluidas = lerConcluidas();
 
-    function chaveSemana(ano, semana) {
-      return ano + "|" + semana;
+    const chaveSemana = (ano, semana) => ano + "|" + semana;
+    const estaConcluida = (ano, semana) => !!concluidas[chaveSemana(ano, semana)];
+
+    function el(tag, classes, texto) {
+      const node = document.createElement(tag);
+      if (classes) node.className = classes;
+      if (texto !== undefined) node.textContent = texto;
+      return node;
     }
 
-    function criarElemento(tag, classe, texto) {
-      const el = document.createElement(tag);
-      if (classe) el.className = classe;
-      if (texto !== undefined) el.textContent = texto;
-      return el;
+    // Converte [texto](link), **negrito** e *itálico* em nós do DOM, sem innerHTML.
+    function formatarRecurso(texto) {
+      const frag = document.createDocumentFragment();
+      const padrao = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
+      let ultimo = 0;
+      let m;
+      while ((m = padrao.exec(texto)) !== null) {
+        if (m.index > ultimo) frag.appendChild(document.createTextNode(texto.slice(ultimo, m.index)));
+        if (m[1]) {
+          const a = el("a", "font-semibold text-indigo-600 underline decoration-indigo-300 underline-offset-2 hover:decoration-indigo-600 dark:text-indigo-300 break-words", m[1]);
+          a.href = m[2];
+          if (/^https?:/.test(m[2])) {
+            a.target = "_blank";
+            a.rel = "noopener";
+          }
+          frag.appendChild(a);
+        } else if (m[3]) {
+          frag.appendChild(el("strong", "font-bold", m[3]));
+        } else {
+          frag.appendChild(el("em", "italic", m[4]));
+        }
+        ultimo = padrao.lastIndex;
+      }
+      if (ultimo < texto.length) frag.appendChild(document.createTextNode(texto.slice(ultimo)));
+      return frag;
     }
 
     function renderAbas() {
       const nav = document.getElementById("abas");
       nav.innerHTML = "";
       ANOS.forEach((ano) => {
-        const b = criarElemento("button", "aba", ano);
+        const ativo = ano === anoAtual;
+        const b = el(
+          "button",
+          "flex-1 rounded-lg px-3 py-2 text-sm font-bold transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200 sm:px-5 " +
+            (ativo
+              ? "bg-white text-indigo-700 shadow-md dark:bg-slate-900 dark:text-indigo-300"
+              : "text-slate-500 hover:text-slate-800 dark:text-slate-400 dark:hover:text-slate-200"),
+          ano
+        );
         b.type = "button";
-        b.setAttribute("aria-pressed", String(ano === anoAtual));
+        b.setAttribute("role", "tab");
+        b.setAttribute("aria-selected", String(ativo));
         b.addEventListener("click", () => {
           anoAtual = ano;
+          bimestreAtual = 0;
           renderTudo();
         });
         nav.appendChild(b);
@@ -226,9 +173,17 @@
         [...new Set(PLANEJAMENTO[anoAtual].map((s) => s.bimestre))].map((n) => ({ n, t: n + "º bim." }))
       );
       opcoes.forEach((op) => {
-        const b = criarElemento("button", "filtro", op.t);
+        const ativo = op.n === bimestreAtual;
+        const b = el(
+          "button",
+          "shrink-0 rounded-full px-4 py-2 text-sm font-bold transition-all duration-200 hover:-translate-y-0.5 active:translate-y-0 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-indigo-200 " +
+            (ativo
+              ? "bg-indigo-600 text-white shadow-md shadow-indigo-200 dark:shadow-none"
+              : "bg-slate-100 text-slate-600 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700"),
+          op.t
+        );
         b.type = "button";
-        b.setAttribute("aria-pressed", String(op.n === bimestreAtual));
+        b.setAttribute("aria-pressed", String(ativo));
         b.addEventListener("click", () => {
           bimestreAtual = op.n;
           renderTudo();
@@ -251,98 +206,154 @@
 
     function atualizarProgresso() {
       const semanas = PLANEJAMENTO[anoAtual];
-      const feitas = semanas.filter((s) => concluidas[chaveSemana(anoAtual, s.semana)]).length;
+      const feitas = semanas.filter((s) => estaConcluida(anoAtual, s.semana)).length;
       const pct = Math.round((feitas / semanas.length) * 100);
+
+      document.getElementById("progressoAno").textContent = "Progresso do " + anoAtual;
       document.getElementById("progressoTexto").textContent =
-        "Concluídas no " + anoAtual + ": " + feitas + " de " + semanas.length + " (" + pct + "%)";
+        feitas + " de " + semanas.length + " aulas concluídas" + (feitas === semanas.length ? " · ano completo! 🎉" : "");
+      document.getElementById("progressoPct").textContent = pct + "%";
       document.getElementById("progressoBarra").style.width = pct + "%";
+
+      const grade = document.getElementById("grade");
+      grade.innerHTML = "";
+      semanas.forEach((s) => {
+        const feita = estaConcluida(anoAtual, s.semana);
+        grade.appendChild(
+          el(
+            "span",
+            "h-3 w-3 rounded-sm transition-colors duration-300 " +
+              (feita ? "bg-emerald-500" : "bg-slate-200 dark:bg-slate-700"),
+            ""
+          )
+        );
+      });
     }
 
-    // Converte [texto](link), **negrito** e *itálico* em nós do DOM, sem usar innerHTML.
-    function formatarRecurso(texto) {
-      const frag = document.createDocumentFragment();
-      const padrao = /\[([^\]]+)\]\(([^)]+)\)|\*\*([^*]+)\*\*|\*([^*]+)\*/g;
-      let ultimo = 0;
-      let m;
-      while ((m = padrao.exec(texto)) !== null) {
-        if (m.index > ultimo) frag.appendChild(document.createTextNode(texto.slice(ultimo, m.index)));
-        if (m[1]) {
-          const a = criarElemento("a", null, m[1]);
-          a.href = m[2];
-          if (/^https?:/.test(m[2])) {
-            a.target = "_blank";
-            a.rel = "noopener";
-          }
-          frag.appendChild(a);
-        } else if (m[3]) {
-          frag.appendChild(criarElemento("strong", null, m[3]));
-        } else {
-          frag.appendChild(criarElemento("em", null, m[4]));
-        }
-        ultimo = padrao.lastIndex;
-      }
-      if (ultimo < texto.length) frag.appendChild(document.createTextNode(texto.slice(ultimo)));
-      return frag;
+    // Aplica o visual de "concluída" ao card e ao botão.
+    function aplicarEstado(card, botao, feita) {
+      card.className = cardClasses(feita);
+      botao.setAttribute("aria-pressed", String(feita));
+      botao.className = botaoClasses(feita);
+      botao.querySelector("[data-check]").classList.toggle("opacity-0", !feita);
+      botao.querySelector("[data-label]").textContent = feita ? "Aula concluída" : "Marcar como concluída";
+    }
+
+    function cardClasses(feita) {
+      return (
+        "group rounded-xl bg-white shadow-md ring-1 transition-all duration-200 hover:shadow-lg dark:bg-slate-900 " +
+        (feita
+          ? "ring-emerald-300 dark:ring-emerald-700"
+          : "ring-slate-200 dark:ring-slate-800")
+      );
+    }
+
+    function botaoClasses(feita) {
+      return (
+        "inline-flex items-center gap-2 rounded-xl px-4 py-2.5 text-sm font-bold transition-all duration-200 focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-emerald-200 active:scale-95 " +
+        (feita
+          ? "bg-emerald-500 text-white shadow-md shadow-emerald-200 hover:bg-emerald-600 dark:shadow-none"
+          : "bg-slate-100 text-slate-700 hover:bg-slate-200 dark:bg-slate-800 dark:text-slate-200 dark:hover:bg-slate-700")
+      );
     }
 
     function montarSemana(s) {
-      const chave = chaveSemana(anoAtual, s.semana);
-      const feita = !!concluidas[chave];
+      const feita = estaConcluida(anoAtual, s.semana);
 
-      const det = criarElemento("details", "semana" + (feita ? " concluida" : ""));
+      const card = el("details", cardClasses(feita));
 
-      const resumo = criarElemento("summary");
-      resumo.appendChild(criarElemento("span", "numero", "Sem. " + s.semana));
-      resumo.appendChild(criarElemento("span", "titulo-semana", s.titulo));
-      if (s.unidade) resumo.appendChild(criarElemento("span", "unidade", s.unidade));
-      det.appendChild(resumo);
+      // Cabeçalho do card
+      const resumo = el("summary", "flex cursor-pointer flex-wrap items-start gap-3 p-4 sm:gap-4 sm:p-5");
+      const bloco = el("div", "flex min-w-0 flex-1 items-start gap-3");
+      const numero = el(
+        "span",
+        "shrink-0 rounded-lg bg-indigo-50 px-2.5 py-1 text-xs font-extrabold uppercase tracking-wide text-indigo-700 dark:bg-indigo-950 dark:text-indigo-300",
+        "Sem. " + s.semana
+      );
+      const titulo = el("h3", "text-base font-bold leading-snug text-slate-900 sm:text-lg dark:text-white", s.titulo);
+      bloco.appendChild(numero);
+      bloco.appendChild(titulo);
+      resumo.appendChild(bloco);
+      if (s.unidade) {
+        resumo.appendChild(
+          el(
+            "span",
+            "ml-auto shrink-0 rounded-full bg-violet-50 px-3 py-1 text-xs font-bold text-violet-700 ring-1 ring-violet-100 dark:bg-violet-950/60 dark:text-violet-300 dark:ring-violet-900",
+            s.unidade
+          )
+        );
+      }
+      card.appendChild(resumo);
 
-      const corpo = criarElemento("div", "detalhes");
+      // Corpo expansível
+      const corpo = el("div", "space-y-4 border-t border-slate-100 p-4 sm:p-5 dark:border-slate-800");
+      const grade = el("div", "grid gap-3 sm:grid-cols-2");
       [
         ["Objetivo", s.objetivo],
         ["Atividade", s.atividade],
         ["Materiais", s.materiais],
         ["Avaliação", s.avaliacao],
       ].forEach(([rotulo, valor]) => {
-        const p = criarElemento("p");
-        p.appendChild(criarElemento("span", "rotulo", rotulo + ": "));
-        p.appendChild(document.createTextNode(valor));
-        corpo.appendChild(p);
+        const caixa = el("div", "min-w-0 rounded-lg bg-slate-50 p-3.5 dark:bg-slate-800/60");
+        caixa.appendChild(
+          el(
+            "p",
+            "text-xs font-extrabold uppercase tracking-wide text-slate-500 dark:text-slate-400",
+            ICONES[rotulo] + " " + rotulo
+          )
+        );
+        caixa.appendChild(el("p", "mt-1 text-sm leading-relaxed text-slate-800 dark:text-slate-100", valor));
+        grade.appendChild(caixa);
       });
+      corpo.appendChild(grade);
 
       if (s.recursos && s.recursos.length) {
-        const bloco = criarElemento("div", "recursos");
-        bloco.appendChild(criarElemento("p", "rotulo", "Recursos"));
-        const lista = criarElemento("ul");
+        const recursos = el("div", "rounded-lg bg-indigo-50/70 p-3.5 dark:bg-indigo-950/30");
+        recursos.appendChild(
+          el("p", "text-xs font-extrabold uppercase tracking-wide text-indigo-700 dark:text-indigo-300", "📚 Recursos")
+        );
+        const lista = el("ul", "mt-2 space-y-1.5 text-sm leading-relaxed text-slate-800 dark:text-slate-100");
         s.recursos.forEach((linha) => {
-          const item = criarElemento("li");
-          item.appendChild(formatarRecurso(linha));
+          const item = el("li", "flex gap-2 before:mt-2 before:h-1.5 before:w-1.5 before:shrink-0 before:rounded-full before:bg-indigo-400 before:content-['']");
+          const conteudo = el("span", "min-w-0");
+          conteudo.appendChild(formatarRecurso(linha));
+          item.appendChild(conteudo);
           lista.appendChild(item);
         });
-        bloco.appendChild(lista);
-        corpo.appendChild(bloco);
+        recursos.appendChild(lista);
+        corpo.appendChild(recursos);
       }
 
-      const marca = criarElemento("label", "marcar");
-      const caixa = criarElemento("input");
-      caixa.type = "checkbox";
-      caixa.checked = feita;
-      caixa.addEventListener("change", () => {
-        if (caixa.checked) {
-          concluidas[chave] = true;
+      // Botão de conclusão
+      const botao = el("button", "");
+      botao.type = "button";
+      const check = el("span", "inline-flex h-5 w-5 items-center justify-center rounded-full bg-white/20 transition-opacity duration-200");
+      check.setAttribute("data-check", "");
+      check.innerHTML =
+        '<svg viewBox="0 0 24 24" class="h-3.5 w-3.5" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true"><path d="m5 12 5 5 9-10" stroke-linecap="round" stroke-linejoin="round"/></svg>';
+      botao.appendChild(check);
+      botao.appendChild(el("span", "", ""));
+      botao.querySelector("span:last-child").setAttribute("data-label", "");
+      botao.addEventListener("click", (e) => {
+        e.stopPropagation();
+        const nova = !estaConcluida(anoAtual, s.semana);
+        if (nova) {
+          concluidas[chaveSemana(anoAtual, s.semana)] = true;
         } else {
-          delete concluidas[chave];
+          delete concluidas[chaveSemana(anoAtual, s.semana)];
         }
         gravarConcluidas(concluidas);
-        det.classList.toggle("concluida", caixa.checked);
+        aplicarEstado(card, botao, nova);
         atualizarProgresso();
       });
-      marca.appendChild(caixa);
-      marca.appendChild(document.createTextNode("Aula concluída"));
-      corpo.appendChild(marca);
+      aplicarEstado(card, botao, feita);
 
-      det.appendChild(corpo);
-      return det;
+      const acoes = el("div", "flex flex-wrap items-center gap-3 pt-1");
+      acoes.appendChild(botao);
+      corpo.appendChild(acoes);
+
+      card.appendChild(corpo);
+      return card;
     }
 
     function renderLista() {
@@ -351,16 +362,20 @@
       const semanas = semanasFiltradas();
 
       if (semanas.length === 0) {
-        lista.appendChild(criarElemento("p", "vazio", "Nenhuma semana encontrada com esses filtros."));
+        lista.appendChild(
+          el("div", "rounded-xl border-2 border-dashed border-slate-300 p-10 text-center text-slate-500 dark:border-slate-700 dark:text-slate-400", "Nenhuma semana encontrada com esses filtros.")
+        );
         return;
       }
 
       let bimestreAnterior = null;
       semanas.forEach((s) => {
         if (s.bimestre !== bimestreAnterior) {
-          lista.appendChild(
-            criarElemento("h2", "bimestre-titulo", s.bimestre + "º bimestre — " + s.bimestreTitulo)
+          const cabecalho = el("div", "mb-3 flex items-baseline justify-between gap-3 border-b border-slate-200 pb-2 dark:border-slate-800");
+          cabecalho.appendChild(
+            el("h2", "text-lg font-extrabold text-slate-900 dark:text-white", s.bimestre + "º bimestre · " + s.bimestreTitulo)
           );
+          lista.appendChild(cabecalho);
           bimestreAnterior = s.bimestre;
         }
         lista.appendChild(montarSemana(s));
